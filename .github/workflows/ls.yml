@@ -11,5 +11,5 @@ jobs:
           PASS: ${{ secrets.SFTP_PASSWORD }}
         run: |
           sudo apt-get install -y -qq sshpass >/dev/null 2>&1
-          printf 'ls -la\nls -la a\nls -la b\n-ls -la sub\n-ls -la subdom\n-ls -la a/a\n' > b.txt
+          printf 'ls -la HOSTDIR\n-ls -la HOSTDIR/sub\n-ls -la HOSTDIR/web\n' | sed "s/HOSTDIR/$HOST/g" > b.txt
           sshpass -p "$PASS" sftp -o BatchMode=no -o StrictHostKeyChecking=no -o PubkeyAuthentication=no -o PreferredAuthentications=password -P "$PORT" -b b.txt "$USER@$HOST" 2>&1 | sed "s/$HOST/HOSTNAME/g" | grep -v -E "post-quantum|store now|upgraded"
