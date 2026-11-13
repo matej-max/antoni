@@ -9,7 +9,7 @@
     const priceBox = section.querySelector('#daily-price');
     const allergens = section.querySelector('#daily-allergens');
     const announcement = section.querySelector('#day-announcement');
-    const endpoint = 'https://testovacka.listo.sk/api/public/v1/menu/antoni/centrum/sk';
+    const endpoint = 'https://testovacka.listo.sk/api/public/v1/menu/antoni/antoni/sk';
     const allergenNames = ['obilniny obsahujúce lepok', 'kôrovce', 'vajcia', 'ryby', 'arašidy', 'sója', 'mlieko', 'orechy', 'zeler', 'horčica', 'sezam', 'oxid siričitý a siričitany', 'vlčí bôb', 'mäkkýše'];
     const shortDays = ['Po', 'Ut', 'St', 'Št', 'Pi', 'So', 'Ne'];
     const euro = new Intl.NumberFormat('sk-SK', { style: 'currency', currency: 'EUR' });
