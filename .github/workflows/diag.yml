@@ -1,0 +1,19 @@
+name: Diagnostika SFTP
+on: workflow_dispatch
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test spojenia
+        env:
+          HOST: ${{ secrets.SFTP_HOST }}
+          PORT: ${{ secrets.SFTP_PORT }}
+          USER: ${{ secrets.SFTP_LOGIN }}
+          PASS: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          sudo apt-get install -y -qq sshpass lftp >/dev/null 2>&1
+          echo "port=$PORT"
+          echo "--- banner"; timeout 8 bash -c "exec 3<>/dev/tcp/$HOST/${PORT:-22}; head -c 120 <&3" || echo "no banner"
+          echo "--- ssh"; sshpass -p "$PASS" ssh -o StrictHostKeyChecking=no -o PreferredAuthentications=password -o PubkeyAuthentication=no -p "${PORT:-22}" -v "$USER@$HOST" exit 2>&1 | grep -E "Remote protocol|Authentications|Authenticated|denied|closed|Connection" | head -10
+          echo "--- sftp ls"; lftp -d -u "$USER","$PASS" -p "${PORT:-22}" "sftp://$HOST" -e "set sftp:auto-confirm yes; set net:max-retries 1; set net:timeout 15; cls -1; bye" 2>&1 | grep -v -i pass | tail -15
+          echo "--- ftp ls"; lftp -u "$USER","$PASS" "ftp://$HOST" -e "set ftp:ssl-allow yes; set ssl:verify-certificate no; set net:max-retries 1; set net:timeout 15; cls -1; bye" 2>&1 | tail -8
