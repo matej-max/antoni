@@ -16,10 +16,16 @@ jobs:
           USER: ${{ secrets.SFTP_LOGIN }}
           PASS: ${{ secrets.SFTP_PASSWORD }}
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
-          lftp -u "$USER","$PASS" -p "${PORT:-22}" "sftp://$HOST" -e "
-            set sftp:auto-confirm yes; set net:max-retries 2;
-            pwd; cls -1;
-            mirror -R --parallel=4 deploy/a a;
-            mirror -R --parallel=4 deploy/b b;
-            bye"
+          sudo apt-get install -y -qq sshpass >/dev/null 2>&1
+          cd deploy
+          # dávka: vytvor adresáre (chyba „už existuje“ sa ignoruje cez „-“), potom nahraj súbory
+          {
+            echo "pwd"
+            find a b -type d | sort | sed 's/^/-mkdir /'
+            find a b -type f | sort | sed 's/.*/put "&" "&"/'
+            echo "ls -1"
+          } > ../batch.txt
+          echo "príkazov: $(wc -l < ../batch.txt)"
+          sshpass -p "$PASS" sftp -o BatchMode=no -o StrictHostKeyChecking=no -o PubkeyAuthentication=no \
+            -o PreferredAuthentications=password -P "${PORT:-22}" -b ../batch.txt "$USER@$HOST" 2>&1 \
+            | grep -v -E "^sftp> (put|-mkdir)|^Uploading|post-quantum|store now|upgraded"
