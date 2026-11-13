@@ -16,6 +16,7 @@ jobs:
           USER: ${{ secrets.SFTP_LOGIN }}
           PASS: ${{ secrets.SFTP_PASSWORD }}
         run: |
+          set -o pipefail
           sudo apt-get install -y -qq sshpass >/dev/null 2>&1
           cd deploy
           # dávka: vytvor adresáre (chyba „už existuje“ sa ignoruje cez „-“), potom nahraj súbory
@@ -28,4 +29,4 @@ jobs:
           echo "príkazov: $(wc -l < ../batch.txt)"
           sshpass -p "$PASS" sftp -o BatchMode=no -o StrictHostKeyChecking=no -o PubkeyAuthentication=no \
             -o PreferredAuthentications=password -P "${PORT:-22}" -b ../batch.txt "$USER@$HOST" 2>&1 \
-            | grep -v -E "^sftp> (put|-mkdir)|^Uploading|post-quantum|store now|upgraded"
+            | { grep -v -E "^sftp> (put|-mkdir)|^Uploading|post-quantum|store now|upgraded" || true; }
