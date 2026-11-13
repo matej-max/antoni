@@ -1,0 +1,49 @@
+name: Deploy denného menu na c.antoni.restaurant
+on:
+  push:
+    branches: [pilot/listo-menu-c]
+    paths: ['deploy/c/**', '.github/workflows/deploy-c.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: antoni-preview-c
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Skontrolovať skript a nasadiť sekciu denného menu
+        env:
+          HOST: ${{ secrets.SFTP_HOST }}
+          PORT: ${{ secrets.SFTP_PORT }}
+          USER: ${{ secrets.SFTP_LOGIN }}
+          SSHPASS: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          node --check deploy/c/listo-menu.js
+          sudo apt-get install -y -qq sshpass >/dev/null
+          {
+            echo "cd \"$HOST/sub/c\""
+            echo 'get index.html /tmp/antoni-c-before.html'
+          } > /tmp/sftp-check
+          sshpass -e sftp -o BatchMode=no -o StrictHostKeyChecking=accept-new -o PubkeyAuthentication=no \
+            -o PreferredAuthentications=password -P "${PORT:-22}" -b /tmp/sftp-check "$USER@$HOST"
+          grep -q 'id="denne-menu"' /tmp/antoni-c-before.html
+          {
+            echo "cd \"$HOST/sub/c\""
+            echo 'put deploy/c/listo-menu.js listo-menu.js'
+            echo 'put deploy/c/index.html index.html'
+          } > /tmp/sftp-deploy
+          sshpass -e sftp -o BatchMode=no -o StrictHostKeyChecking=accept-new -o PubkeyAuthentication=no \
+            -o PreferredAuthentications=password -P "${PORT:-22}" -b /tmp/sftp-deploy "$USER@$HOST"
+      - name: Overiť zverejnenú stránku
+        run: |
+          curl -fsS --retry 2 https://c.antoni.restaurant/ -o /tmp/antoni-c.html
+          grep -q 'listo-menu.js' /tmp/antoni-c.html
+          curl -fsS https://c.antoni.restaurant/listo-menu.js -o /tmp/listo-menu.js
+          cmp deploy/c/listo-menu.js /tmp/listo-menu.js
