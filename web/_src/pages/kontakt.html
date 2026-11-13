@@ -1,0 +1,43 @@
+<!--meta {"title": "Kontakt a otváracie hodiny · Antoni restaurant", "desc": "Antoni restaurant, Peserany 283, 991 05 Sklabiná pri Veľkom Krtíši. Rezervácie a donáška 0948 871 984. Otvorené denne od 11:00.", "theme": "night", "page": "kontakt"} -->
+<section class="page-hero" aria-labelledby="pg-title">
+  <div class="wrap page-hero__grid">
+    <div class="page-hero__text">
+      <h1 class="page-hero__title" id="pg-title" data-title-in>Kontakt</h1>
+      <p class="lead page-hero__sub">Peserany 283, kúsok od Veľkého Krtíša. Parkovanie priamo pri reštaurácii.</p>
+      <p class="footer__open" data-open-status style="color:var(--ink-soft)"><span class="dot dot--off"></span>Otváracie hodiny</p>
+    </div>
+    <div class="page-hero__img map-wrap" data-hero-in>
+      <iframe class="map-frame" title="Mapa — Antoni restaurant, Peserany" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Antoni%20restaurant%20Peserany&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section" aria-labelledby="h-contact" style="padding-top:var(--s-8)">
+  <div class="wrap reserve-grid">
+    <div>
+      <h2 class="sr-only" id="h-contact">Kontaktné údaje</h2>
+      <ul class="contact-lines">
+        <li><span class="k">Adresa</span><span class="v">Peserany 283, 991 05 Sklabiná</span><a class="textlink" href="https://www.google.com/maps/search/?api=1&amp;query=Antoni+restaurant+Peserany+283" rel="noopener" style="justify-self:start;margin-top:6px">Navigovať {{icon:arrow|arrow}}</a></li>
+        <li><span class="k">Rezervácie a donáška</span><a class="v" href="tel:+421948871984">+421 948 871 984</a></li>
+        <li><span class="k">Manažér reštaurácie · oslavy</span><a class="v" href="tel:+421903585566">Miroslav Dobra, +421 903 585 566</a></li>
+        <li><span class="k">E-mail</span><a class="v" href="mailto:antoni.restaurant@centrum.sk">antoni.restaurant@centrum.sk</a></li>
+        <li><span class="k">Sociálne siete</span><span class="v" style="display:flex;gap:18px"><a href="https://www.instagram.com/antoni_restaurant/" rel="noopener">Instagram</a><a href="https://www.facebook.com/profile.php?id=100088883695134" rel="noopener">Facebook</a></span></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="label muted" style="margin-bottom:var(--s-4)">Otváracie hodiny</h2>
+      {{> hours}}
+      <p class="small muted" style="margin-top:var(--s-4)">Denné menu v pracovné dni od 11:00.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section ground-espresso" id="rezervacia" aria-labelledby="h-res">
+  <div class="wrap">
+    <h2 class="h2" id="h-res">Rezervovať stôl</h2>
+    <div class="reserve-grid">
+      {{> reserve-form}}
+      <figure class="arch reserve-photo" data-curtain>{{img:prichod|(min-width:1100px) 34vw, 92vw|Prestretý stôl v reštaurácii Antoni}}</figure>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,25 @@
+name: Deploy náhľadu (a, b)
+on:
+  push:
+    branches: [main]
+    paths: ['deploy/**', '.github/workflows/deploy.yml']
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Nahrať a/ a b/ cez SFTP
+        env:
+          HOST: ${{ secrets.SFTP_HOST }}
+          PORT: ${{ secrets.SFTP_PORT }}
+          USER: ${{ secrets.SFTP_LOGIN }}
+          PASS: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+          lftp -u "$USER","$PASS" -p "${PORT:-22}" "sftp://$HOST" -e "
+            set sftp:auto-confirm yes; set net:max-retries 2;
+            pwd; cls -1;
+            mirror -R --parallel=4 deploy/a a;
+            mirror -R --parallel=4 deploy/b b;
+            bye"

@@ -1,0 +1,62 @@
+<div class="reserve" data-reserve>
+  <form class="form" novalidate data-reserve-form>
+    <div class="field">
+      <span class="legend" id="lg-day">Deň</span>
+      <div class="chips" data-day-chips role="radiogroup" aria-labelledby="lg-day"></div>
+      <label class="date-other"><span>Iný dátum</span><input class="input input--sm" type="date" name="date" data-date-input aria-label="Iný dátum návštevy" required></label>
+      <p class="field__error">Vyberte deň návštevy.</p>
+    </div>
+    <div class="field">
+      <span class="legend" id="lg-time">Čas</span>
+      <div class="slots" data-slots role="radiogroup" aria-labelledby="lg-time"></div>
+      <p class="field__error">Vyberte čas, kedy prídete.</p>
+    </div>
+    <div class="form__row form__row--2">
+      <div class="field">
+        <span class="legend" id="lg-guests">Počet hostí</span>
+        <div class="stepper" role="group" aria-labelledby="lg-guests">
+          <button type="button" data-step="-1" aria-label="Menej hostí">{{icon:minus}}</button>
+          <output data-guests aria-live="polite">2</output>
+          <button type="button" data-step="1" aria-label="Viac hostí">{{icon:plus}}</button>
+        </div>
+        <input type="hidden" name="guests" value="2">
+      </div>
+      <div class="field">
+        <label for="r-occasion-{{meta:page}}">Príležitosť</label>
+        <select class="select" id="r-occasion-{{meta:page}}" name="occasion">
+          <option>Večera</option><option>Obed</option><option>Rande</option><option>Narodeniny</option><option>Kačacie hody</option><option>Pracovné stretnutie</option>
+        </select>
+      </div>
+    </div>
+    <div class="form__row form__row--2">
+      <div class="field">
+        <label for="r-name-{{meta:page}}">Meno</label>
+        <input class="input" id="r-name-{{meta:page}}" name="name" autocomplete="name" required>
+        <p class="field__error">Napíšte, na koho meno pripravíme stôl.</p>
+      </div>
+      <div class="field">
+        <label for="r-tel-{{meta:page}}">Telefón</label>
+        <input class="input" id="r-tel-{{meta:page}}" name="tel" type="tel" autocomplete="tel" inputmode="tel" placeholder="+421 9xx xxx xxx" required>
+        <p class="field__error">Telefón potrebujeme na potvrdenie rezervácie.</p>
+      </div>
+    </div>
+    <div class="field">
+      <label for="r-note-{{meta:page}}">Poznámka <span style="text-transform:none;letter-spacing:0;font-weight:400">(nepovinné)</span></label>
+      <textarea class="textarea" id="r-note-{{meta:page}}" name="note" placeholder="Detská stolička, alergia, torta na oslavu…"></textarea>
+    </div>
+    <div class="field">
+      <label class="check"><input type="checkbox" name="consent" required><span>Súhlasím so spracovaním údajov na účel rezervácie. <a href="#">Ako s nimi narábame</a></span></label>
+      <p class="field__error">Bez súhlasu vám rezerváciu nevieme potvrdiť.</p>
+    </div>
+    <button class="btn btn--block" type="submit"><span class="btn__text">Odoslať požiadavku</span></button>
+    <p class="field__hint">Rezerváciu vám potvrdíme telefonicky. Pre skupiny nad 12 hostí použite <a href="eventy.html">dopyt na oslavu</a>.</p>
+  </form>
+  <div class="reserve-card" role="status" aria-live="polite" tabindex="-1">
+    {{logo:mono|mono}}
+    <p class="rc-label">Stôl pripravujeme pre</p>
+    <p class="rc-name" data-rc-name>Vás</p>
+    <p class="rc-when"><strong data-rc-when>—</strong><span data-rc-guests>2 hostia</span></p>
+    <p class="rc-note">Ďakujeme. Požiadavku sme prijali a rezerváciu vám potvrdíme telefonicky.</p>
+    <p style="margin-top:18px"><button class="textlink" type="button" data-rc-edit style="color:var(--espresso)">Upraviť požiadavku</button></p>
+  </div>
+</div>

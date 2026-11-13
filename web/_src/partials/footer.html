@@ -1,0 +1,51 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer__top">
+      {{logo:full|footer__mark}}
+      <div>
+        <p class="footer__open" data-open-status><span class="dot dot--off"></span>Otváracie hodiny</p>
+        <p style="margin-top:20px"><a class="btn" href="rezervacia.html"><span class="btn__text">Rezervovať stôl</span>{{icon:arrow|arrow}}</a></p>
+      </div>
+    </div>
+    <div class="footer__grid">
+      <div class="footer__col">
+        <h2>Adresa</h2>
+        <address>Antoni restaurant<br>Peserany 283<br>991 05 Sklabiná<br>pri Veľkom Krtíši</address>
+        <p style="margin-top:14px"><a class="textlink" href="https://www.google.com/maps/search/?api=1&amp;query=Antoni+restaurant+Peserany+283" rel="noopener">Navigovať {{icon:arrow|arrow}}</a></p>
+      </div>
+      <div class="footer__col">
+        <h2>Otvorené</h2>
+        {{> hours}}
+      </div>
+      <div class="footer__col">
+        <h2>Kontakt</h2>
+        <ul>
+          <li><a href="tel:+421948871984">+421 948 871 984</a><br><span class="small" style="color:var(--stone)">rezervácie, donáška</span></li>
+          <li style="margin-top:12px"><a href="tel:+421903585566">+421 903 585 566</a><br><span class="small" style="color:var(--stone)">Miroslav Dobra, manažér · oslavy</span></li>
+          <li style="margin-top:12px"><a href="mailto:antoni.restaurant@centrum.sk">antoni.restaurant@centrum.sk</a></li>
+        </ul>
+        <div class="socials">
+          <a href="https://www.instagram.com/antoni_restaurant/" rel="noopener" aria-label="Instagram">{{icon:instagram}}</a>
+          <a href="https://www.facebook.com/profile.php?id=100088883695134" rel="noopener" aria-label="Facebook">{{icon:facebook}}</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h2>Antoni</h2>
+        <ul>
+          <li><a href="ponuka.html">À la carte lístok</a></li>
+          <li><a href="denne-menu.html">Denné menu</a></li>
+          <li><a href="pizza.html">Pizza a donáška</a></li>
+          <li><a href="kacacie-hody.html">Kačacie hody</a></li>
+          <li><a href="eventy.html">Oslavy a svadby</a></li>
+          <li><a href="medzi-chodmi.html">Medzi chodmi</a></li>
+          <li><a href="o-nas.html">O nás</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <span>© {{year}} ANTONI Restaurant s. r. o.</span>
+      <span><a href="#">Ochrana osobných údajov</a> · <a href="#">Cookies</a></span>
+      <span>Dizajn a web: Matej Jadroň</span>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,50 @@
+{
+  "_comment": "Pizza, šaláty, štangle, posúchy — z aktuálnej ponuky antoni.restaurant.",
+  "categories": [
+    {"slug": "pizza", "name": "Pizza", "numbered": true, "items": [
+      {"n": 1, "name": "Margherita", "desc": "paradajkový základ, syr, čerstvá bazalka, oregano", "portion": "500 g", "allergens": "1, 7", "price": 7.00, "tags": ["vege"]},
+      {"n": 2, "name": "Šunková", "desc": "paradajkový základ, syr, šunka, oregano", "portion": "585 g", "allergens": "1, 7", "price": 7.50},
+      {"n": 3, "name": "Kukuricová", "desc": "paradajkový základ, syr, šunka, kukurica, oregano", "portion": "630 g", "allergens": "1, 7", "price": 7.60},
+      {"n": 4, "name": "Šampiňónová", "desc": "paradajkový základ, syr, šunka, šampiňóny, oregano", "portion": "620 g", "allergens": "1, 7", "price": 7.60},
+      {"n": 5, "name": "Hawai", "desc": "paradajkový základ, syr, šunka, ananás, oregano", "portion": "650 g", "allergens": "1, 7", "price": 8.00},
+      {"n": 6, "name": "Salámová", "desc": "paradajkový základ, syr, saláma, oregano", "portion": "570 g", "allergens": "1, 7", "price": 8.00},
+      {"n": 7, "name": "4 druhy syra", "desc": "paradajkový základ, eidam, niva, mozzarella, encián, oregano", "portion": "640 g", "allergens": "1, 7", "price": 8.20, "tags": ["vege"]},
+      {"n": 8, "name": "Tuniaková", "desc": "paradajkový základ, syr, tuniak, červená cibuľka, oregano", "portion": "650 g", "allergens": "1, 4, 7", "price": 8.20},
+      {"n": 9, "name": "Diavola", "desc": "paradajkový základ, syr, šunka, saláma, feferóny, oregano", "portion": "615 g", "allergens": "1, 7", "price": 8.00, "tags": ["spicy"]},
+      {"n": 10, "name": "Ricardo", "desc": "paradajkový základ, syr, šunka, saláma, kukurica, zelené a čierne olivy, šampiňóny, oregano", "portion": "710 g", "allergens": "1, 7", "price": 8.20},
+      {"n": 11, "name": "Gambaretti", "desc": "paradajkový základ, syr, cherry paradajky, krevety, cesnak, rukola, oregano", "portion": "665 g", "allergens": "1, 4, 7", "price": 8.50},
+      {"n": 12, "name": "Bryndzová", "desc": "bryndzovo-smotanový základ, syr, oravská slanina, cibuľa, oregano", "portion": "680 g", "allergens": "1, 7", "price": 8.50},
+      {"n": 13, "name": "Sedliacka", "desc": "paradajkový základ, syr, šunka, oravská slanina, klobása, feferóny, cibuľa, oregano", "portion": "685 g", "allergens": "1, 7", "price": 8.20, "tags": ["spicy"]},
+      {"n": 14, "name": "Gazdovská", "desc": "paradajkový základ, syr, saláma, oravská slanina, vajce, feferóny, oregano", "portion": "665 g", "allergens": "1, 3, 7", "price": 8.20, "tags": ["spicy"]},
+      {"n": 15, "name": "Verdura", "desc": "paradajkový základ, syr, šampiňóny, cherry paradajky, bazalkové pesto, parmezán, kapary, oregano", "portion": "645 g", "allergens": "1, 7", "price": 8.20, "tags": ["vege"]},
+      {"n": 16, "name": "Antoni", "desc": "paradajkový základ, syr, saláma, fazuľky, kukurica, vajce, feferóny, oregano", "portion": "685 g", "allergens": "1, 3, 7", "price": 8.30, "tags": ["spicy"]},
+      {"n": 17, "name": "Chorizo", "desc": "paradajkový základ, syr, chorizo, sušené paradajky, červená cibuľa, oregano", "portion": "570 g", "allergens": "1, 3, 7", "price": 8.00},
+      {"n": 18, "name": "Prosciutto", "desc": "paradajkový základ, syr, prosciutto, rukola, oregano", "portion": "570 g", "allergens": "1, 7", "price": 8.20},
+      {"n": 19, "name": "Quattro stagioni", "desc": "paradajkový základ, syr, šunka, olivy, šampiňóny, artičoky, kapary, oregano", "portion": "750 g", "allergens": "1, 7", "price": 8.50},
+      {"n": 20, "name": "Picante", "desc": "paradajkový základ, syr, pikantná saláma, feferóny, oregano", "portion": "565 g", "allergens": "1, 7", "price": 8.00, "tags": ["spicy"]},
+      {"n": 21, "name": "Furmanská", "desc": "paradajkový základ, syr, slanina, klobása, cibuľa, kyslá smotana, oregano", "portion": "660 g", "allergens": "1, 7", "price": 8.20},
+      {"n": 22, "name": "Calzone", "desc": "paradajkový základ, syr, šunka, saláma, šampiňóny, artičoky, oregano", "portion": "660 g", "allergens": "1, 7", "price": 8.20},
+      {"n": 23, "name": "Kuracia", "desc": "smotanový základ, syr, pancetta, červená cibuľa, syr niva, kuracie mäso, pažítka, oregano", "portion": "650 g", "allergens": "1, 7", "price": 8.00, "photo": "pizza"},
+      {"n": 24, "name": "Gorgonzola Rosso", "desc": "paradajkový základ, syr, gorgonzola, chorizo, kapary, oregano", "portion": "625 g", "allergens": "1, 7", "price": 8.70}
+    ]},
+    {"slug": "salaty", "name": "Šaláty", "items": [
+      {"name": "Šopský šalát", "desc": "uhorka, paprika, cherry paradajky, červená cibuľka, strúhaný balkánsky syr, balsamico", "portion": "390 g", "allergens": "7", "price": 5.00, "tags": ["vege"]},
+      {"name": "Cézar šalát v pizza miske", "desc": "tanier z pizzového cesta, rímsky šalát, kuracie mäso, slaninka, krutóny, parmezán, dresing", "portion": "540 g", "allergens": "1, 4, 7", "price": 8.90},
+      {"name": "Tuniakový šalát", "desc": "šalát mix, cherry paradajky, uhorka, čierne olivy, vajíčko, balkánsky syr, tuniak, jogurtový dresing", "portion": "540 g", "allergens": "3, 4, 7", "price": 8.50},
+      {"name": "Šalát s kuracím mäsom", "desc": "šalát mix, kuracie mäso, vajíčko, dresing, domáce grissini", "portion": "555 g", "allergens": "1, 3, 4, 7", "price": 8.50}
+    ]},
+    {"slug": "stangle", "name": "Štangle", "items": [
+      {"name": "Cesnakové", "desc": "pizza cesto, cesnak", "portion": "280 g", "allergens": "1", "price": 3.50, "tags": ["vege"]},
+      {"name": "Syrové", "desc": "pizza cesto, syr", "portion": "310 g", "allergens": "1, 7", "price": 3.60, "tags": ["vege"]},
+      {"name": "Klobásové", "desc": "pizza cesto, klobása", "portion": "350 g", "allergens": "1, 7", "price": 3.90},
+      {"name": "Slaninové", "desc": "pizza cesto, slanina", "portion": "360 g", "allergens": "1, 7", "price": 3.90},
+      {"name": "Šunkové", "desc": "pizza cesto, šunka", "portion": "370 g", "allergens": "1, 7", "price": 4.20},
+      {"name": "Salámové", "desc": "pizza cesto, saláma", "portion": "370 g", "allergens": "1, 7", "price": 4.20}
+    ]},
+    {"slug": "posuchy", "name": "Posúchy", "items": [
+      {"name": "Cesnakový posúch", "desc": "cesto, cesnak", "portion": "220 g", "allergens": "1", "price": 2.50, "tags": ["vege"]},
+      {"name": "Syrový posúch", "desc": "cesto, syr", "portion": "260 g", "allergens": "1, 7", "price": 3.00, "tags": ["vege"]},
+      {"name": "Syrovo-cesnakový posúch", "desc": "cesto, syr, cesnak", "portion": "280 g", "allergens": "1, 7", "price": 3.10, "tags": ["vege"]}
+    ]}
+  ]
+}

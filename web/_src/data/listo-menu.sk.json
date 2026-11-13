@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "restaurant": {"name": "Antoni restaurant", "branch": "Peserany", "address": "Peserany 283"},
+  "menu": {"id": 40, "name": "Týždeň 40", "version": 1, "locale": "sk", "starts_on": "2026-09-28", "ends_on": "2026-10-02", "published_at": "2026-09-27T15:53:00+02:00"},
+  "days": [
+    {"date": "2026-09-28", "label": "Pondelok", "items": [
+      {"slot": "Polievka", "name": "Karfiolová s mrveničkou", "description": null, "portion": "0,4 l", "price": 0, "currency": "EUR", "allergens": [1,3,9], "photo_url": null},
+      {"slot": "Menu 1", "name": "Pečené bravčové koleno, šťuchané zemiaky, kapustový šalát", "description": null, "portion": "150/200 g", "price": 6.90, "currency": "EUR", "allergens": [1,7], "photo_url": null},
+      {"slot": "Menu 2", "name": "Zeleninové rizoto s kuracím mäsom, syr, kyslá uhorka", "description": null, "portion": "350 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,7], "photo_url": null},
+      {"slot": "Menu 3", "name": "Pizza Šunková (paradajkový základ, syr, šunka, oregano)", "description": null, "portion": "580 g", "price": 6.90, "currency": "EUR", "allergens": [1,7], "photo_url": null},
+      {"slot": "Menu 4", "name": "Šalát s kuracím mäsom | Tuniakový šalát", "description": null, "portion": "400 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,4,7], "photo_url": null}
+    ]},
+    {"date": "2026-09-29", "label": "Utorok", "items": [
+      {"slot": "Polievka", "name": "Špenátová s vajíčkom, opečená slaninka", "description": null, "portion": "0,4 l", "price": 0, "currency": "EUR", "allergens": [1,3,7], "photo_url": null},
+      {"slot": "Menu 1", "name": "Grilované kuracie medailónky na dusenej mexickej zelenine, zemiakové pyré, demi-glace", "description": null, "portion": "150/200 g", "price": 6.90, "currency": "EUR", "allergens": [1,6,7], "photo_url": null},
+      {"slot": "Menu 2", "name": "Šošovicový prívarok, klobása, vajíčko", "description": null, "portion": "350 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,7], "photo_url": null},
+      {"slot": "Menu 3", "name": "Pizza Kukuricová (paradajkový základ, syr, šunka, kukurica, oregano)", "description": null, "portion": "620 g", "price": 6.90, "currency": "EUR", "allergens": [1,7], "photo_url": null},
+      {"slot": "Menu 4", "name": "Šalát s kuracím mäsom | Tuniakový šalát", "description": null, "portion": "400 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,4,7], "photo_url": null}
+    ]},
+    {"date": "2026-09-30", "label": "Streda", "items": [
+      {"slot": "Polievka", "name": "Hovädzí vývar s pečeňovými haluškami", "description": null, "portion": "0,4 l", "price": 0, "currency": "EUR", "allergens": [1,3,9], "photo_url": null},
+      {"slot": "Menu 1", "name": "Ohnivé bravčové soté, zemiakové haruľky, syr, šalát", "description": null, "portion": "150/200 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,7], "photo_url": null},
+      {"slot": "Menu 2", "name": "Kuracie pečienky na cibuľke, ryža", "description": null, "portion": "150/200 g", "price": 6.90, "currency": "EUR", "allergens": [], "photo_url": null},
+      {"slot": "Menu 3", "name": "Pizza 4 druhy syra (paradajkový základ, eidam, niva, mozzarella, encián, oregano)", "description": null, "portion": "620 g", "price": 6.90, "currency": "EUR", "allergens": [1,7], "photo_url": null},
+      {"slot": "Menu 4", "name": "Šalát s kuracím mäsom | Tuniakový šalát", "description": null, "portion": "400 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,4,7], "photo_url": null}
+    ]},
+    {"date": "2026-10-01", "label": "Štvrtok", "items": [
+      {"slot": "Polievka", "name": "Syrová s krutónmi", "description": null, "portion": "0,4 l", "price": 0, "currency": "EUR", "allergens": [1,3,7], "photo_url": null},
+      {"slot": "Menu 1", "name": "Kuracie kúsky v teriyaki omáčke, pečená ryža s jarnou cibuľkou", "description": null, "portion": "150/200 g", "price": 6.90, "currency": "EUR", "allergens": [2,4,6,11,13,14], "photo_url": null},
+      {"slot": "Menu 2", "name": "Šišky s nutelou a vanilkovým krémom", "description": null, "portion": "350 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,7,8], "photo_url": null},
+      {"slot": "Menu 3", "name": "Pizza Šampiňónová (paradajkový základ, syr, šunka, šampiňóny, oregano)", "description": null, "portion": "620 g", "price": 6.90, "currency": "EUR", "allergens": [1,7], "photo_url": null},
+      {"slot": "Menu 4", "name": "Šalát s kuracím mäsom | Tuniakový šalát", "description": null, "portion": "400 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,4,7], "photo_url": null}
+    ]},
+    {"date": "2026-10-02", "label": "Piatok", "items": [
+      {"slot": "Polievka", "name": "Čínska ostro-kyslá", "description": null, "portion": "0,4 l", "price": 0, "currency": "EUR", "allergens": [1,3,4,6,9,14], "photo_url": null},
+      {"slot": "Menu 1", "name": "Bravčový plátok, slaninka, demi-glace omáčka, pučené zemiaky", "description": null, "portion": "150/200 g", "price": 6.90, "currency": "EUR", "allergens": [1,7], "photo_url": null},
+      {"slot": "Menu 2", "name": "Krémové kuracie kari, jazmínová ryža", "description": null, "portion": "150/200 g", "price": 6.90, "currency": "EUR", "allergens": [6,9,10,11], "photo_url": null},
+      {"slot": "Menu 3", "name": "Pizza Ricardo (paradajkový základ, syr, šunka, saláma, kukurica, zelené a čierne olivy, šampiňóny, oregano)", "description": null, "portion": "650 g", "price": 6.90, "currency": "EUR", "allergens": [1,7], "photo_url": null},
+      {"slot": "Menu 4", "name": "Šalát s kuracím mäsom | Tuniakový šalát", "description": null, "portion": "400 g", "price": 6.90, "currency": "EUR", "allergens": [1,3,4,7], "photo_url": null}
+    ]}
+  ]
+}

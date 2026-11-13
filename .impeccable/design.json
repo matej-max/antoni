@@ -1,0 +1,536 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T19:16:39+00:00",
+  "title": "Design System: Antoni restaurant",
+  "extensions": {
+    "colorMeta": {
+      "gold": {
+        "role": "primary",
+        "displayName": "Dining-Room Gold",
+        "canonical": "oklch(75.0% 0.086 73.6)",
+        "tonalRamp": [
+          "oklch(15% 0.086 73.6)",
+          "oklch(25% 0.086 73.6)",
+          "oklch(35% 0.086 73.6)",
+          "oklch(47% 0.086 73.6)",
+          "oklch(59% 0.086 73.6)",
+          "oklch(71% 0.086 73.6)",
+          "oklch(83% 0.086 73.6)",
+          "oklch(95% 0.086 73.6)"
+        ]
+      },
+      "gold-soft": {
+        "role": "primary",
+        "displayName": "Candlelit Gold",
+        "canonical": "oklch(85.3% 0.060 79.4)",
+        "tonalRamp": [
+          "oklch(15% 0.060 79.4)",
+          "oklch(25% 0.060 79.4)",
+          "oklch(35% 0.060 79.4)",
+          "oklch(47% 0.060 79.4)",
+          "oklch(59% 0.060 79.4)",
+          "oklch(71% 0.060 79.4)",
+          "oklch(83% 0.060 79.4)",
+          "oklch(95% 0.060 79.4)"
+        ]
+      },
+      "gold-deep": {
+        "role": "primary",
+        "displayName": "Oak Gold",
+        "canonical": "oklch(63.3% 0.085 73.7)",
+        "tonalRamp": [
+          "oklch(15% 0.085 73.7)",
+          "oklch(25% 0.085 73.7)",
+          "oklch(35% 0.085 73.7)",
+          "oklch(47% 0.085 73.7)",
+          "oklch(59% 0.085 73.7)",
+          "oklch(71% 0.085 73.7)",
+          "oklch(83% 0.085 73.7)",
+          "oklch(95% 0.085 73.7)"
+        ]
+      },
+      "bronze": {
+        "role": "primary",
+        "displayName": "Bronze",
+        "canonical": "oklch(48.1% 0.074 73.2)",
+        "tonalRamp": [
+          "oklch(15% 0.074 73.2)",
+          "oklch(25% 0.074 73.2)",
+          "oklch(35% 0.074 73.2)",
+          "oklch(47% 0.074 73.2)",
+          "oklch(59% 0.074 73.2)",
+          "oklch(71% 0.074 73.2)",
+          "oklch(83% 0.074 73.2)",
+          "oklch(95% 0.074 73.2)"
+        ]
+      },
+      "forest": {
+        "role": "secondary",
+        "displayName": "Deep Forest",
+        "canonical": "oklch(31.3% 0.042 183.1)",
+        "tonalRamp": [
+          "oklch(15% 0.042 183.1)",
+          "oklch(25% 0.042 183.1)",
+          "oklch(35% 0.042 183.1)",
+          "oklch(47% 0.042 183.1)",
+          "oklch(59% 0.042 183.1)",
+          "oklch(71% 0.042 183.1)",
+          "oklch(83% 0.042 183.1)",
+          "oklch(95% 0.042 183.1)"
+        ]
+      },
+      "forest-deep": {
+        "role": "secondary",
+        "displayName": "Dusk Forest",
+        "canonical": "oklch(23.2% 0.030 184.2)",
+        "tonalRamp": [
+          "oklch(15% 0.030 184.2)",
+          "oklch(25% 0.030 184.2)",
+          "oklch(35% 0.030 184.2)",
+          "oklch(47% 0.030 184.2)",
+          "oklch(59% 0.030 184.2)",
+          "oklch(71% 0.030 184.2)",
+          "oklch(83% 0.030 184.2)",
+          "oklch(95% 0.030 184.2)"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Deepest Night",
+        "canonical": "oklch(14.9% 0.019 34.4)",
+        "tonalRamp": [
+          "oklch(15% 0.019 34.4)",
+          "oklch(25% 0.019 34.4)",
+          "oklch(35% 0.019 34.4)",
+          "oklch(47% 0.019 34.4)",
+          "oklch(59% 0.019 34.4)",
+          "oklch(71% 0.019 34.4)",
+          "oklch(83% 0.019 34.4)",
+          "oklch(95% 0.019 34.4)"
+        ]
+      },
+      "night-2": {
+        "role": "neutral",
+        "displayName": "Night Raise",
+        "canonical": "oklch(17.6% 0.024 38.0)",
+        "tonalRamp": [
+          "oklch(15% 0.024 38.0)",
+          "oklch(25% 0.024 38.0)",
+          "oklch(35% 0.024 38.0)",
+          "oklch(47% 0.024 38.0)",
+          "oklch(59% 0.024 38.0)",
+          "oklch(71% 0.024 38.0)",
+          "oklch(83% 0.024 38.0)",
+          "oklch(95% 0.024 38.0)"
+        ]
+      },
+      "espresso": {
+        "role": "neutral",
+        "displayName": "Espresso",
+        "canonical": "oklch(19.3% 0.052 38.1)",
+        "tonalRamp": [
+          "oklch(15% 0.052 38.1)",
+          "oklch(25% 0.052 38.1)",
+          "oklch(35% 0.052 38.1)",
+          "oklch(47% 0.052 38.1)",
+          "oklch(59% 0.052 38.1)",
+          "oklch(71% 0.052 38.1)",
+          "oklch(83% 0.052 38.1)",
+          "oklch(95% 0.052 38.1)"
+        ]
+      },
+      "umber": {
+        "role": "neutral",
+        "displayName": "Umber",
+        "canonical": "oklch(40.9% 0.024 41.6)",
+        "tonalRamp": [
+          "oklch(15% 0.024 41.6)",
+          "oklch(25% 0.024 41.6)",
+          "oklch(35% 0.024 41.6)",
+          "oklch(47% 0.024 41.6)",
+          "oklch(59% 0.024 41.6)",
+          "oklch(71% 0.024 41.6)",
+          "oklch(83% 0.024 41.6)",
+          "oklch(95% 0.024 41.6)"
+        ]
+      },
+      "stone": {
+        "role": "neutral",
+        "displayName": "Stone",
+        "canonical": "oklch(74.9% 0.014 63.9)",
+        "tonalRamp": [
+          "oklch(15% 0.014 63.9)",
+          "oklch(25% 0.014 63.9)",
+          "oklch(35% 0.014 63.9)",
+          "oklch(47% 0.014 63.9)",
+          "oklch(59% 0.014 63.9)",
+          "oklch(71% 0.014 63.9)",
+          "oklch(83% 0.014 63.9)",
+          "oklch(95% 0.014 63.9)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Porcelain Ink",
+        "canonical": "oklch(83.6% 0.012 67.7)",
+        "tonalRamp": [
+          "oklch(15% 0.012 67.7)",
+          "oklch(25% 0.012 67.7)",
+          "oklch(35% 0.012 67.7)",
+          "oklch(47% 0.012 67.7)",
+          "oklch(59% 0.012 67.7)",
+          "oklch(71% 0.012 67.7)",
+          "oklch(83% 0.012 67.7)",
+          "oklch(95% 0.012 67.7)"
+        ]
+      },
+      "porcelain": {
+        "role": "neutral",
+        "displayName": "Porcelain",
+        "canonical": "oklch(96.2% 0.005 78.3)",
+        "tonalRamp": [
+          "oklch(15% 0.005 78.3)",
+          "oklch(25% 0.005 78.3)",
+          "oklch(35% 0.005 78.3)",
+          "oklch(47% 0.005 78.3)",
+          "oklch(59% 0.005 78.3)",
+          "oklch(71% 0.005 78.3)",
+          "oklch(83% 0.005 78.3)",
+          "oklch(95% 0.005 78.3)"
+        ]
+      },
+      "porcelain-2": {
+        "role": "neutral",
+        "displayName": "Porcelain Shade",
+        "canonical": "oklch(92.3% 0.009 78.3)",
+        "tonalRamp": [
+          "oklch(15% 0.009 78.3)",
+          "oklch(25% 0.009 78.3)",
+          "oklch(35% 0.009 78.3)",
+          "oklch(47% 0.009 78.3)",
+          "oklch(59% 0.009 78.3)",
+          "oklch(71% 0.009 78.3)",
+          "oklch(83% 0.009 78.3)",
+          "oklch(95% 0.009 78.3)"
+        ]
+      },
+      "linen-line": {
+        "role": "neutral",
+        "displayName": "Linen Line",
+        "canonical": "oklch(86.7% 0.015 74.4)",
+        "tonalRamp": [
+          "oklch(15% 0.015 74.4)",
+          "oklch(25% 0.015 74.4)",
+          "oklch(35% 0.015 74.4)",
+          "oklch(47% 0.015 74.4)",
+          "oklch(59% 0.015 74.4)",
+          "oklch(71% 0.015 74.4)",
+          "oklch(83% 0.015 74.4)",
+          "oklch(95% 0.015 74.4)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "canonical": "oklch(100.0% 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(15% 0.000 89.9)",
+          "oklch(25% 0.000 89.9)",
+          "oklch(35% 0.000 89.9)",
+          "oklch(47% 0.000 89.9)",
+          "oklch(59% 0.000 89.9)",
+          "oklch(71% 0.000 89.9)",
+          "oklch(83% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Ember",
+        "canonical": "oklch(71.7% 0.113 38.8)",
+        "tonalRamp": [
+          "oklch(15% 0.113 38.8)",
+          "oklch(25% 0.113 38.8)",
+          "oklch(35% 0.113 38.8)",
+          "oklch(47% 0.113 38.8)",
+          "oklch(59% 0.113 38.8)",
+          "oklch(71% 0.113 38.8)",
+          "oklch(83% 0.113 38.8)",
+          "oklch(95% 0.113 38.8)"
+        ]
+      },
+      "error-noon": {
+        "role": "error",
+        "displayName": "Brick",
+        "canonical": "oklch(49.1% 0.145 36.2)",
+        "tonalRamp": [
+          "oklch(15% 0.145 36.2)",
+          "oklch(25% 0.145 36.2)",
+          "oklch(35% 0.145 36.2)",
+          "oklch(47% 0.145 36.2)",
+          "oklch(59% 0.145 36.2)",
+          "oklch(71% 0.145 36.2)",
+          "oklch(83% 0.145 36.2)",
+          "oklch(95% 0.120 36.2)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page h1s and the home h1; Rosalia SK 400 only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles, chapter times, menu category and day titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Chapter names, chef and course names; dish names a step lower."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "Sans h4."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Intro paragraphs, 34-38ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, prose max 66ch."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Descriptions, meta, hours."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Nav, field labels, column heads, menu slot names; uppercase."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Buttons and text links; uppercase."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ticket-lift",
+        "value": "0 30px 60px -20px rgba(0,0,0,.55), 0 8px 18px -8px rgba(0,0,0,.35)",
+        "purpose": "Reservation success ticket."
+      },
+      {
+        "name": "peek-float",
+        "value": "0 30px 60px -25px rgba(0,0,0,.7)",
+        "purpose": "Cursor-following dish photo preview."
+      },
+      {
+        "name": "sheet-rise",
+        "value": "0 -20px 50px -20px rgba(0,0,0,.6)",
+        "purpose": "Bottom sheets."
+      },
+      {
+        "name": "hairline",
+        "value": "inset 0 0 0 1px rgba(207,166,112,.5)",
+        "purpose": "Outlined pills, ghost buttons, icon buttons; full gold on hover."
+      },
+      {
+        "name": "focus-halo",
+        "value": "0 0 0 3px rgba(207,166,112,.22)",
+        "purpose": "Field focus, with gold border."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "Default for reveals, wipes, drawers, sheets."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(.65, 0, .35, 1)",
+        "purpose": "Symmetrical moves (scroll cue)."
+      },
+      {
+        "name": "t-fast",
+        "value": "180ms",
+        "purpose": "Hover color and border state."
+      },
+      {
+        "name": "t-mid",
+        "value": "420ms",
+        "purpose": "Button wipes, underlines, arrows."
+      },
+      {
+        "name": "t-slow",
+        "value": "900ms",
+        "purpose": "Odometer digit roll."
+      },
+      {
+        "name": "ground-crossfade",
+        "value": "1.2s ease-out",
+        "purpose": "Body background moving to each chapter's tone."
+      },
+      {
+        "name": "curtain-reveal",
+        "value": "clip-path inset(100% 0 0 0) to 0, 1.5s expo.inOut, image scale 1.14-1.2 to 1",
+        "purpose": "Photograph entrances."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "all durations .001ms",
+        "purpose": "Everything renders in its final state."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "900px"
+      },
+      {
+        "name": "lg",
+        "value": "1100px"
+      },
+      {
+        "name": "xl",
+        "value": "1240px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Gold pill for the one main action (Rezervovať stôl); gold-soft wipe rises on hover.",
+      "html": "<a class=\"ds-btn\" href=\"#\">Rezervovať stôl <svg class=\"ds-arrow\" viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" aria-hidden=\"true\"><path d=\"M2 8h11M9 4l4 4-4 4\"/></svg></a>",
+      "css": ":host{--gold:#CFA670;--gold-soft:#E4CBA3;--night:#120806;--night-2:#1A0D09;--espresso:#270A03;--porcelain:#F4F2EF;--stone:#B4ACA5;--bronze:#77572B;--line:rgba(207,166,112,.22);--line-strong:rgba(207,166,112,.5);--ease-out:cubic-bezier(.16,1,.3,1)} .ds-btn{position:relative;display:inline-flex;align-items:center;gap:12px;min-height:52px;padding:4px 26px 0;background:var(--gold);color:var(--night);font-family:'Josefin Sans',sans-serif;font-size:.8125rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;line-height:1;border-radius:999px;overflow:hidden;isolation:isolate;text-decoration:none;transition:transform 180ms var(--ease-out)} .ds-btn::before{content:'';position:absolute;inset:0;background:var(--gold-soft);transform:translateY(101%);transition:transform 420ms var(--ease-out);z-index:-1} .ds-btn:hover::before{transform:translateY(0)} .ds-btn .ds-arrow{margin-top:-4px;transition:transform 420ms var(--ease-out)} .ds-btn:hover .ds-arrow{transform:translateX(4px)} .ds-btn:active{transform:scale(.98)} .ds-btn:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Hairline pill for secondary actions; porcelain wipe on hover.",
+      "html": "<div class=\"ds-ground\"><a class=\"ds-btn-ghost\" href=\"#\">Pozrieť lístok</a></div>",
+      "css": ":host{--gold:#CFA670;--gold-soft:#E4CBA3;--night:#120806;--night-2:#1A0D09;--espresso:#270A03;--porcelain:#F4F2EF;--stone:#B4ACA5;--bronze:#77572B;--line:rgba(207,166,112,.22);--line-strong:rgba(207,166,112,.5);--ease-out:cubic-bezier(.16,1,.3,1)} .ds-ground{background:var(--night);padding:24px} .ds-btn-ghost{position:relative;display:inline-flex;align-items:center;min-height:52px;padding:4px 26px 0;color:var(--porcelain);box-shadow:inset 0 0 0 1px var(--line-strong);font-family:'Josefin Sans',sans-serif;font-size:.8125rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;line-height:1;border-radius:999px;overflow:hidden;isolation:isolate;text-decoration:none;transition:color 420ms var(--ease-out),box-shadow 420ms var(--ease-out)} .ds-btn-ghost::before{content:'';position:absolute;inset:0;background:var(--porcelain);transform:translateY(101%);transition:transform 420ms var(--ease-out);z-index:-1} .ds-btn-ghost:hover{color:var(--night);box-shadow:inset 0 0 0 1px var(--porcelain)} .ds-btn-ghost:hover::before{transform:none} .ds-btn-ghost:focus-visible{outline:2px solid var(--gold);outline-offset:3px}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Near-square field with uppercase label; gold border and halo on focus.",
+      "html": "<div class=\"ds-ground\"><label class=\"ds-field\"><span>Meno</span><input class=\"ds-input\" placeholder=\"Vaše meno\"></label></div>",
+      "css": ":host{--gold:#CFA670;--gold-soft:#E4CBA3;--night:#120806;--night-2:#1A0D09;--espresso:#270A03;--porcelain:#F4F2EF;--stone:#B4ACA5;--bronze:#77572B;--line:rgba(207,166,112,.22);--line-strong:rgba(207,166,112,.5);--ease-out:cubic-bezier(.16,1,.3,1)} .ds-ground{background:var(--night);padding:24px;color:var(--porcelain)} .ds-field{display:grid;gap:8px;font-family:'Josefin Sans',sans-serif} .ds-field span{font-size:.6875rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--stone)} .ds-input{min-height:54px;padding:16px 16px 12px;background:rgba(255,255,255,.035);border:1px solid var(--line-strong);border-radius:2px;color:var(--porcelain);font:inherit;font-size:1.0625rem;transition:border-color 180ms,box-shadow 180ms} .ds-input:hover{border-color:var(--gold)} .ds-input:focus-visible{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(207,166,112,.22)}"
+    },
+    {
+      "name": "Time Slots / Chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill radios for day and time; selected fills gold.",
+      "html": "<div class=\"ds-ground\"><label class=\"ds-slot\"><input type=\"radio\" name=\"t\"><span>18:30</span></label><label class=\"ds-slot\"><input type=\"radio\" name=\"t\" checked><span>19:00</span></label><label class=\"ds-slot\"><input type=\"radio\" name=\"t\" disabled><span>12:00</span></label></div>",
+      "css": ":host{--gold:#CFA670;--gold-soft:#E4CBA3;--night:#120806;--night-2:#1A0D09;--espresso:#270A03;--porcelain:#F4F2EF;--stone:#B4ACA5;--bronze:#77572B;--line:rgba(207,166,112,.22);--line-strong:rgba(207,166,112,.5);--ease-out:cubic-bezier(.16,1,.3,1)} .ds-ground{background:var(--night);padding:24px;display:flex;gap:8px;color:var(--porcelain);font-family:'Josefin Sans',sans-serif} .ds-slot{position:relative} .ds-slot input{position:absolute;opacity:0} .ds-slot span{display:inline-flex;align-items:center;justify-content:center;min-width:74px;min-height:44px;padding:4px 12px 0;border-radius:999px;box-shadow:inset 0 0 0 1px var(--line-strong);font-variant-numeric:tabular-nums;font-size:.9375rem;cursor:pointer;transition:background-color 180ms,color 180ms,box-shadow 180ms} .ds-slot span:hover{box-shadow:inset 0 0 0 1px var(--gold)} .ds-slot input:checked+span{background:var(--gold);color:var(--night);box-shadow:none} .ds-slot input:focus-visible+span{outline:2px solid var(--gold);outline-offset:3px} .ds-slot input:disabled+span{opacity:.35;text-decoration:line-through}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "today-pill",
+      "description": "Tracked uppercase links with a gold underline drawn from the left; today pill with live dot.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Lístok</a><a href=\"#\">Denné menu</a><a href=\"#\">Oslavy</a><a class=\"ds-pill\" href=\"#\"><i></i>Dnes na obed</a></nav>",
+      "css": ":host{--gold:#CFA670;--gold-soft:#E4CBA3;--night:#120806;--night-2:#1A0D09;--espresso:#270A03;--porcelain:#F4F2EF;--stone:#B4ACA5;--bronze:#77572B;--line:rgba(207,166,112,.22);--line-strong:rgba(207,166,112,.5);--ease-out:cubic-bezier(.16,1,.3,1)} .ds-nav{background:var(--night);padding:20px 24px;display:flex;align-items:center;gap:28px;font-family:'Josefin Sans',sans-serif} .ds-nav a{position:relative;color:var(--porcelain);text-decoration:none;font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:10px 0 6px} .ds-nav a:not(.ds-pill)::after{content:'';position:absolute;left:0;right:0;bottom:2px;height:1px;background:var(--gold);transform:scaleX(0);transform-origin:right;transition:transform 420ms var(--ease-out)} .ds-nav a:not(.ds-pill):hover::after,.ds-nav a[aria-current=page]::after{transform:scaleX(1);transform-origin:left} .ds-nav a[aria-current=page]{color:var(--gold)} .ds-nav a:focus-visible{outline:2px solid var(--gold);outline-offset:3px} .ds-pill{display:inline-flex;align-items:center;gap:8px;min-height:36px;padding:3px 14px 0!important;border-radius:999px;box-shadow:inset 0 0 0 1px var(--line-strong);font-size:.6875rem!important;letter-spacing:.14em!important} .ds-pill:hover{box-shadow:inset 0 0 0 1px var(--gold)} .ds-pill i{width:7px;height:7px;border-radius:50%;background:var(--gold);margin-top:-3px;animation:ds-pulse 2.4s var(--ease-out) infinite} @keyframes ds-pulse{0%{box-shadow:0 0 0 0 rgba(207,166,112,.55)}70%,100%{box-shadow:0 0 0 8px rgba(207,166,112,0)}} @media (prefers-reduced-motion:reduce){.ds-pill i{animation:none}}"
+    },
+    {
+      "name": "Menu Line",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "Ruled list row: name left, gold tabular price right, description and meta below.",
+      "html": "<ul class=\"ds-items\"><li class=\"ds-item\"><span class=\"ds-name\">Kačacie stehno s červenou kapustou</span><span class=\"ds-price\">16,90 €</span><span class=\"ds-desc\">Lokše, pečené jablko, výpek.</span><span class=\"ds-meta\">350 g · 1, 3, 7</span></li><li class=\"ds-item\"><span class=\"ds-name\">Hovädzí tatarák</span><span class=\"ds-price\">13,50 €</span><span class=\"ds-desc\">Hriankový chlieb, cesnak.</span><span class=\"ds-meta\">150 g · 1, 3, 10</span></li></ul>",
+      "css": ":host{--gold:#CFA670;--gold-soft:#E4CBA3;--night:#120806;--night-2:#1A0D09;--espresso:#270A03;--porcelain:#F4F2EF;--stone:#B4ACA5;--bronze:#77572B;--line:rgba(207,166,112,.22);--line-strong:rgba(207,166,112,.5);--ease-out:cubic-bezier(.16,1,.3,1)} .ds-items{list-style:none;margin:0;padding:24px;background:var(--night);color:var(--porcelain);font-family:'Josefin Sans',sans-serif} .ds-item{display:grid;grid-template-columns:1fr auto;gap:6px 20px;padding:20px 0 18px;border-bottom:1px solid var(--line)} .ds-item:first-child{border-top:1px solid var(--line)} .ds-name{font-size:1.1875rem;line-height:1.3} .ds-price{grid-column:2;grid-row:1;font-size:1.125rem;color:var(--gold);font-variant-numeric:tabular-nums lining-nums;white-space:nowrap} .ds-desc{grid-column:1;color:#CFC8C1;font-size:.9375rem} .ds-meta{grid-column:1;color:var(--stone);font-size:.8125rem;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Arch Frame with Chapter Title",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "The logo arch framing a plate photograph beside a gold time over a Rosalia chapter name.",
+      "html": "<div class=\"ds-chapter\"><h2 class=\"ds-ct\"><span class=\"ds-t\">19:30</span><span class=\"ds-n\">Hlavný chod</span></h2><div class=\"ds-arch\"></div></div>",
+      "css": ":host{--gold:#CFA670;--gold-soft:#E4CBA3;--night:#120806;--night-2:#1A0D09;--espresso:#270A03;--porcelain:#F4F2EF;--stone:#B4ACA5;--bronze:#77572B;--line:rgba(207,166,112,.22);--line-strong:rgba(207,166,112,.5);--ease-out:cubic-bezier(.16,1,.3,1)} .ds-chapter{background:var(--night);padding:32px;display:flex;gap:32px;align-items:end} .ds-ct{margin:0;display:flex;flex-direction:column;gap:.1em;font-family:'Rosalia SK','Josefin Sans',Georgia,serif;font-weight:400;line-height:.95} .ds-t{font-size:3rem;color:var(--gold);letter-spacing:.01em} .ds-n{font-size:2rem;color:var(--porcelain)} .ds-arch{position:relative;width:180px;aspect-ratio:3/4;border-radius:999px 999px 0 0;overflow:hidden;background:radial-gradient(circle at 50% 55%,#e9e5df 0 28%,#7a3b22 29% 40%,var(--night-2) 41%)} .ds-arch::after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px var(--line-strong)}"
+    },
+    {
+      "name": "Reservation Ticket",
+      "kind": "card",
+      "refersTo": "reserve-card",
+      "description": "The only card: porcelain arch-topped confirmation ticket with the ticket-lift shadow.",
+      "html": "<div class=\"ds-wrap\"><div class=\"ds-ticket\"><div class=\"ds-lbl\">Stôl je pripravený</div><div class=\"ds-name\">Jana Nováková</div><div class=\"ds-when\"><strong>Piatok 2. 10. · 19:00</strong><span>4 osoby</span></div></div></div>",
+      "css": ":host{--gold:#CFA670;--gold-soft:#E4CBA3;--night:#120806;--night-2:#1A0D09;--espresso:#270A03;--porcelain:#F4F2EF;--stone:#B4ACA5;--bronze:#77572B;--line:rgba(207,166,112,.22);--line-strong:rgba(207,166,112,.5);--ease-out:cubic-bezier(.16,1,.3,1)} .ds-wrap{background:var(--espresso);padding:40px 24px} .ds-ticket{max-width:420px;margin:0 auto;padding:64px 32px 48px;background:var(--porcelain);color:var(--espresso);border-radius:999px 999px 4px 4px;text-align:center;box-shadow:0 30px 60px -20px rgba(0,0,0,.55),0 8px 18px -8px rgba(0,0,0,.35);font-family:'Josefin Sans',sans-serif} .ds-lbl{font-size:.6875rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--bronze)} .ds-name{font-family:'Rosalia SK','Josefin Sans',Georgia,serif;font-size:2.6rem;line-height:1;margin-top:16px} .ds-when{margin-top:24px;padding-top:16px;border-top:1px solid #D9D2C9;display:grid;gap:4px;color:#564640;font-variant-numeric:tabular-nums} .ds-when strong{font-weight:400;color:var(--espresso);font-size:1.125rem}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Večer chod po chode",
+    "overview": "The Evening, Course by Course: the site is one evening at Antoni. Night grounds shift with the hour, from dusk forest to espresso to deepest night, and the home page is ordered as a sequence of timed chapters (18:30 Príchod through 21:00 Dezert a káva, ending at the guest's own reservation time). Professional seasonal plate photography carries the story at full bleed or inside the arch taken from the logo; Rosalia SK sets the hairline display voice in porcelain white, Josefin Sans carries everything practical. Lunch is daylight: the daily menu page flips to a porcelain ground.\n\nDensity is calm and editorial: generous section padding, one idea per chapter, lists set as ruled menu lines rather than boxed tiles. Luxury is expressed as stillness, detail and exact information (tabular prices, hours, allergens), never through gold ornament. Gold appears as thin lines, times, prices and the one primary action.\n\nThe motion grammar is part of the world: a monogram that draws itself, a hero photo that opens through the arch like a door, curtain reveals on photographs, a rolling odometer clock that tracks the chapter, and a body background that cross-fades to each chapter's tone. Everything collapses to static under `prefers-reduced-motion`.",
+    "keyCharacteristics": [
+      "Dark, warm night grounds by default; a single light \"noon\" theme for the daily menu.",
+      "Gold (#CFA670) is the only accent; on light grounds its text form is bronze.",
+      "The arch (fully rounded top, square bottom) is the signature frame for photos, the success ticket, notices and day tabs.",
+      "Hairline gold rules divide content; no card grids, no boxed tiles.",
+      "Rosalia SK display at weight 400 only; Josefin Sans for text and all UI.",
+      "Times of the evening in gold Rosalia are the home page's chapter markers and the reservation finale."
+    ],
+    "rules": [
+      {
+        "name": "The One Gold Rule",
+        "body": "Gold is the only accent hue. Forest and espresso are grounds, not accents; no second highlight color is introduced for emphasis.",
+        "section": "colors"
+      },
+      {
+        "name": "The Hour Ground Rule",
+        "body": "Section grounds are chosen by time of evening: forest-deep for dusk, espresso for feature chapters and reservation, night for the rest. Index chapters declare their tone and the body cross-fades to it (1.2s). Noon (porcelain) is reserved for lunch content.",
+        "section": "colors"
+      },
+      {
+        "name": "The Bronze-on-Light Rule",
+        "body": "On porcelain, any gold text becomes bronze; gold remains only as a fill or dot.",
+        "section": "colors"
+      },
+      {
+        "name": "The Single Weight Display Rule",
+        "body": "Rosalia SK is set at weight 400 with zero tracking and balanced wrapping; never bold, never letterspaced, never in uppercase.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Numbers Rule",
+        "body": "Prices, hours, gramáž, dates and indices use `tabular-nums lining-nums`; prices are gold (bronze on noon) and never wrap.",
+        "section": "typography"
+      },
+      {
+        "name": "The Optical Baseline Rule",
+        "body": "Josefin Sans sits high in its box; pills and buttons compensate with extra top padding (for example `4px 26px 0`) rather than symmetric padding.",
+        "section": "typography"
+      },
+      {
+        "name": "The Float-Only Shadow Rule",
+        "body": "A shadow means the element floats over the page (sheet, peek, ticket). Anything in flow is flat and separated by hairlines.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep gold (#CFA670) as the single accent, and switch gold text to bronze (#77572B) on porcelain.",
+      "**Do** frame hero and feature photographs in the arch (`999px 999px 0 0`), or let them run full bleed with a night scrim.",
+      "**Do** set lists as ruled menu lines with gold tabular prices on the right.",
+      "**Do** set Rosalia SK at weight 400 only, and use Josefin Sans for every label, button, field and paragraph.",
+      "**Do** give pills and buttons top-heavy padding (`4px … 0`) to center Josefin optically.",
+      "**Do** pick section grounds by the hour (forest-deep, espresso, night), and keep porcelain for lunch.",
+      "**Do** honor `prefers-reduced-motion` by rendering every reveal in its final state."
+    ],
+    "donts": [
+      "**Don't** lay content out as grids of boxed cards; the reservation ticket is the only card.",
+      "**Don't** add a second accent color, gradients in gold, or gold ornament; luxury here is calm and exact.",
+      "**Don't** set Rosalia in bold, in uppercase, or with tracking, and don't use it for UI labels or numbers that need to align (it has no tabular figures).",
+      "**Don't** add drop shadows to in-flow elements; shadows are only for sheets, the peek and the ticket.",
+      "**Don't** use gold chapter times outside the evening sequence and the reservation clock; on other pages headings stand alone.",
+      "**Don't** round form fields like pills; fields stay at 2px."
+    ]
+  }
+}

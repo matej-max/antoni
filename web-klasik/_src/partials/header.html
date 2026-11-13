@@ -1,0 +1,40 @@
+<a class="skip-link" href="#main">Preskočiť na obsah</a>
+<header class="site-header k-header" data-header>
+  <div class="k-header__in wrap">
+    <a class="k-logo" href="index.html" aria-label="Antoni restaurant — úvod">{{logo:mono|mono}}{{logo:word|word}}</a>
+    <nav class="k-nav" aria-label="Hlavná navigácia">
+      <a class="nav-link" href="ponuka.html"{{cur:ponuka}}>Lístok</a>
+      <a class="nav-link" href="denne-menu.html"{{cur:denne-menu}}>Denné menu</a>
+      <a class="nav-link" href="pizza.html"{{cur:pizza}}>Pizza</a>
+      <a class="nav-link" href="eventy.html"{{cur:eventy}}>Oslavy</a>
+      <a class="nav-link" href="o-nas.html"{{cur:o-nas}}>O nás</a>
+      <a class="nav-link" href="kontakt.html"{{cur:kontakt}}>Kontakt</a>
+    </nav>
+    <div class="k-header__end">
+      <div class="lang" aria-label="Jazyk"><a href="index.html" aria-current="true" lang="sk">SK</a><a href="#" lang="hu" hreflang="hu">HU</a></div>
+      <a class="btn btn--sm k-header__cta" href="rezervacia.html"><span class="btn__text">Rezervovať</span></a>
+      <button class="menu-btn" type="button" data-drawer-open aria-controls="drawer" aria-expanded="false"><span>Menu</span><span class="menu-btn__lines" aria-hidden="true"></span></button>
+    </div>
+  </div>
+</header>
+<div class="drawer" id="drawer" data-drawer role="dialog" aria-modal="true" aria-label="Menu" hidden>
+  <div class="drawer__top">
+    <a href="index.html" class="site-header__logo" aria-label="Antoni restaurant — úvod">{{logo:mono|mono}}</a>
+    <button class="drawer__close" type="button" data-drawer-close>Zavrieť {{icon:close}}</button>
+  </div>
+  <nav class="drawer__nav" aria-label="Hlavné menu">
+    <a href="index.html"{{cur:index}}>Úvod</a>
+    <a href="ponuka.html"{{cur:ponuka}}>Lístok <small>Leto 2026</small></a>
+    <a href="denne-menu.html"{{cur:denne-menu}}>Denné menu <small>Po – Pi</small></a>
+    <a href="pizza.html"{{cur:pizza}}>Pizza a donáška</a>
+    <a href="kacacie-hody.html"{{cur:kacacie-hody}}>Kačacie hody <small>práve teraz</small></a>
+    <a href="eventy.html"{{cur:eventy}}>Oslavy a svadby</a>
+    <a href="medzi-chodmi.html"{{cur:medzi-chodmi}}>Medzi chodmi</a>
+    <a href="o-nas.html"{{cur:o-nas}}>O nás</a>
+    <a href="kontakt.html"{{cur:kontakt}}>Kontakt</a>
+  </nav>
+  <div class="drawer__foot">
+    <div class="row"><span class="bar__status" data-open-status><span class="dot dot--off"></span>Otváracie hodiny</span><div class="lang-m" aria-label="Jazyk"><a href="index.html" aria-current="true" lang="sk">SK</a><a href="#" lang="hu" hreflang="hu">HU</a></div></div>
+    <div class="row"><a class="tel" href="tel:+421948871984">+421 948 871 984</a><a class="btn btn--sm" href="rezervacia.html">Rezervovať</a></div>
+  </div>
+</div>

@@ -1,0 +1,236 @@
+<!--meta {"title": "Antoni restaurant · Peserany pri Veľkom Krtíši", "desc": "Reštaurácia Antoni v Peseranoch pri Veľkom Krtíši. Sezónny à la carte lístok, steaky, cestoviny, pizza a denné menu. Rezervujte si stôl online alebo telefonicky.", "theme": "noon", "page": "index", "header": "dark"} -->
+
+<!-- HERO -->
+<section class="k-hero k-dark" aria-labelledby="k-title">
+  <div class="k-hero__media" aria-hidden="true">
+    <picture>
+      <source media="(min-width: 900px)" srcset="assets/img/stol-hore-siroky-1600.webp 1600w, assets/img/stol-hore-siroky-2200.webp 2200w" sizes="100vw">
+      {{img:stol-hore|100vw||eager}}
+    </picture>
+  </div>
+  <div class="k-hero__veil" aria-hidden="true"></div>
+  <div class="k-hero__in wrap">
+    <div class="k-hero__logo" data-title-in>{{logo:full|k-hero__mark}}</div>
+    <h1 class="k-hero__title" id="k-title" data-title-in>Sezónna kuchyňa v Peseranoch pri Veľkom Krtíši</h1>
+    <p class="k-hero__sub" data-title-in>Steaky, domáce cestoviny, pizza a denné menu. Otvorené denne od 11:00.</p>
+    <div class="k-hero__actions" data-title-in>
+      <a class="btn" href="#rezervacia"><span class="btn__text">Rezervovať stôl</span>{{icon:arrow|arrow}}</a>
+      <a class="btn btn--ghost" href="ponuka.html"><span class="btn__text">Pozrieť lístok</span></a>
+    </div>
+  </div>
+  <a class="k-hero__cue" href="#vitajte" aria-label="Posunúť na obsah"><i></i></a>
+</section>
+
+<!-- RÝCHLE INFO -->
+<section class="k-info" aria-label="Praktické informácie">
+  <div class="wrap k-info__in">
+    <div class="k-info__item">
+      {{icon:clock|icon k-info__icon}}
+      <div>
+        <h2 class="k-info__h">Otváracie hodiny</h2>
+        <p class="k-info__v" data-open-status><span class="dot dot--off"></span>Po – Št 11:00 – 21:00</p>
+        <p class="k-info__s">Pi – So do 22:00 · Ne do 21:00</p>
+      </div>
+    </div>
+    <div class="k-info__item">
+      {{icon:plate|icon k-info__icon}}
+      <div>
+        <h2 class="k-info__h">Denné menu</h2>
+        <p class="k-info__v" data-today-short>Po – Pi od 11:00 · 6,90 €</p>
+        <p class="k-info__s"><a class="link" href="denne-menu.html">Menu na tento týždeň</a></p>
+      </div>
+    </div>
+    <div class="k-info__item">
+      {{icon:pin|icon k-info__icon}}
+      <div>
+        <h2 class="k-info__h">Kde nás nájdete</h2>
+        <p class="k-info__v">Peserany 283, 991 05 Sklabiná</p>
+        <p class="k-info__s"><a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Antoni+restaurant+Peserany+283" rel="noopener">Navigovať</a> · parkovanie pri reštaurácii</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- O NÁS -->
+<section class="k-section k-about" id="vitajte" aria-labelledby="k-about-h">
+  <div class="wrap k-split">
+    <div class="k-split__text" data-reveal>
+      <h2 class="k-h2" id="k-about-h">Vitajte v Antoni</h2>
+      <p class="lead">Okrúhle dubové stoly, zelené zamatové kreslá a tlmené svetlo. Miesto, kde sa večer nikam neponáhľa — na rande, s rodinou aj s partiou, ktorá sa dlho nevidela.</p>
+      <p class="prose" style="margin-top:var(--s-4)">Suroviny hľadáme u miestnych dodávateľov a lístok meníme so sezónou. Popri ňom varíme denné menu a pizzu, ktorú vám radi privezieme aj domov.</p>
+      <p style="margin-top:var(--s-6)"><a class="textlink" href="o-nas.html">Náš príbeh {{icon:arrow|arrow}}</a></p>
+    </div>
+    <div class="k-split__media">
+      <figure class="k-photo k-photo--tall" data-curtain>{{img:prichod|(min-width:1100px) 40vw, 92vw|Čašníčka Antoni pri prestretom stole v reštaurácii}}</figure>
+      <figure class="k-photo k-photo--inset" data-curtain>{{img:kokteily|(min-width:1100px) 18vw, 40vw|Podnos s miešanými drinkami na dubovom stole}}</figure>
+    </div>
+  </div>
+</section>
+
+<!-- KAČACIE HODY -->
+<section class="k-feature k-dark" aria-labelledby="k-feast-h">
+  <div class="k-feature__media" data-curtain>{{img:kacacie-hody-stehno|(min-width:900px) 55vw, 100vw|Pečené kačacie stehno s červenou kapustou, knedľou a chrumkavou cibuľkou}}</div>
+  <div class="k-feature__text" data-reveal>
+    <h2 class="k-h2" id="k-feast-h">Kačacie hody</h2>
+    <p class="k-status"><span class="dot dot--live"></span>Práve v ponuke · rezervácia odporúčaná</p>
+    <p class="lead">Jesenné menu z kačky popri našom lístku: paštéta s briošou, pečené stehno s červenou kapustou a knedľou, kačacie prsia a lokše s makom a slivkami.</p>
+    <p class="k-actions">
+      <a class="btn" href="kacacie-hody.html"><span class="btn__text">Menu kačacích hodov</span>{{icon:arrow|arrow}}</a>
+      <a class="btn btn--ghost" href="rezervacia.html?prilezitost=Ka%C4%8Dacie%20hody"><span class="btn__text">Rezervovať</span></a>
+    </p>
+  </div>
+</section>
+
+<!-- Z LÍSTKA -->
+<section class="k-section k-menu" aria-labelledby="k-menu-h">
+  <div class="wrap">
+    <div class="k-head">
+      <h2 class="k-h2" id="k-menu-h">Z nášho lístka</h2>
+      <p class="lead">Výber z aktuálneho lístka Leto 2026. Lístok meníme so sezónou, niekoľkokrát do roka.</p>
+    </div>
+    <ul class="k-dishes">
+      <li class="k-dish" data-reveal>
+        <div class="k-dish__img">{{img:kacacie-prsia|(min-width:1100px) 28vw, (min-width:640px) 45vw, 92vw|Sous vide kačacie prsia s rezančekmi a tiramisu omáčkou}}</div>
+        <div class="k-dish__row"><h3 class="k-dish__name">Sous vide kačacie prsia</h3><span class="price">14,80 €</span></div>
+        <p class="k-dish__desc">domáce zemiakovo-batátové rezančeky, tiramisu omáčka, brusnice</p>
+      </li>
+      <li class="k-dish" data-reveal>
+        <div class="k-dish__img">{{img:losos|(min-width:1100px) 28vw, (min-width:640px) 45vw, 92vw|Losos na bylinkovom masle s karfiolovým pyré}}</div>
+        <div class="k-dish__row"><h3 class="k-dish__name">Losos na bylinkovom masle</h3><span class="price">13,50 €</span></div>
+        <p class="k-dish__desc">karfiolové pyré, veloute</p>
+      </li>
+      <li class="k-dish" data-reveal>
+        <div class="k-dish__img">{{img:rib-eye|(min-width:1100px) 28vw, (min-width:640px) 45vw, 92vw|Nakrájaný rib-eye steak na doske}}</div>
+        <div class="k-dish__row"><h3 class="k-dish__name">Rib-eye steak</h3><span class="price">29,50 €</span></div>
+        <p class="k-dish__desc">vysoká roštenka s vyšším stupňom mramorovania, 300 g</p>
+      </li>
+      <li class="k-dish" data-reveal>
+        <div class="k-dish__img">{{img:penne-krevety|(min-width:1100px) 28vw, (min-width:640px) 45vw, 92vw|Penne v krémovej bazalkovej omáčke s krevetami}}</div>
+        <div class="k-dish__row"><h3 class="k-dish__name">Penne v bazalkovej omáčke</h3><span class="price">9,50 €</span></div>
+        <p class="k-dish__desc">s grilovanými krevetami za príplatok 3,90 €</p>
+      </li>
+      <li class="k-dish" data-reveal>
+        <div class="k-dish__img">{{img:smash-burger|(min-width:1100px) 28vw, (min-width:640px) 45vw, 92vw|Antoni smash burger s hranolkami}}</div>
+        <div class="k-dish__row"><h3 class="k-dish__name">Antoni smash burger</h3><span class="price">13,10 €</span></div>
+        <p class="k-dish__desc">domáca žemľa, hovädzie mäso, slaninka, cheddar</p>
+      </li>
+      <li class="k-dish" data-reveal>
+        <div class="k-dish__img">{{img:creme-brulee|(min-width:1100px) 28vw, (min-width:640px) 45vw, 92vw|Crème brûlée s ovocím}}</div>
+        <div class="k-dish__row"><h3 class="k-dish__name">Crème brûlée</h3><span class="price">5,50 €</span></div>
+        <p class="k-dish__desc">s čerstvým ovocím</p>
+      </li>
+    </ul>
+    <nav class="k-cats" aria-label="Kategórie lístka">
+      <a href="ponuka.html#predjedla">Predjedlá</a><a href="ponuka.html#polievky">Polievky</a><a href="ponuka.html#hlavne-jedla">Hlavné jedlá</a><a href="ponuka.html#burgre">Burgre</a><a href="ponuka.html#steaky">Steaky</a><a href="ponuka.html#cestoviny">Cestoviny</a><a href="ponuka.html#dezerty">Dezerty</a><a href="pizza.html">Pizza</a>
+    </nav>
+    <p class="k-center"><a class="btn" href="ponuka.html"><span class="btn__text">Celý lístok</span>{{icon:arrow|arrow}}</a></p>
+  </div>
+</section>
+
+<!-- DENNÉ MENU -->
+<section class="k-section k-daily" aria-labelledby="k-daily-h">
+  <div class="wrap k-split k-split--rev">
+    <div class="k-split__text" data-reveal>
+      <h2 class="k-h2" id="k-daily-h">Denné menu</h2>
+      <p class="lead">V pracovné dni od 11:00 varíme polievku a štyri hlavné jedlá. Menu s polievkou stojí 6,90 € a objednať si ho môžete aj na donášku.</p>
+      <p class="k-actions">
+        <a class="btn" href="denne-menu.html"><span class="btn__text">Menu na celý týždeň</span>{{icon:arrow|arrow}}</a>
+        <a class="btn btn--ghost" href="tel:+421948871984"><span class="btn__text">Objednať 0948 871 984</span></a>
+      </p>
+    </div>
+    <div class="k-today" data-reveal>
+      <div class="k-today__head"><h3 class="k-today__title" data-today-title>Dnes na obed</h3><span class="k-today__date" data-today-date></span></div>
+      <div data-today-menu><p class="muted">Denné menu načítavame z aplikácie Listo.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- OSLAVY -->
+<section class="k-band k-dark" aria-labelledby="k-events-h">
+  <div class="k-band__media" aria-hidden="true"><div class="k-band__img" data-parallax>{{img:spolocny-stol-siroky|100vw|}}</div></div>
+  <div class="k-band__veil" aria-hidden="true"></div>
+  <div class="wrap k-band__in">
+    <div class="k-band__box" data-reveal>
+      <h2 class="k-h2" id="k-events-h">Oslavy a svadby</h2>
+      <p class="lead">Svadby, krstiny, stužkové, narodeniny aj firemné večery. Menu pripravíme na mieru, postaráme sa o výzdobu, hudbu aj parkovanie.</p>
+      <dl class="k-facts">
+        <div><dt>Reštaurácia</dt><dd>60 hostí</dd></div>
+        <div><dt>Terasa</dt><dd>60 hostí</dd></div>
+        <div><dt>Spolu</dt><dd>120 hostí</dd></div>
+      </dl>
+      <p class="k-actions"><a class="btn" href="eventy.html"><span class="btn__text">Naplánovať oslavu</span>{{icon:arrow|arrow}}</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- GALÉRIA -->
+<section class="k-section k-gallery k-dark" aria-labelledby="k-gal-h">
+  <div class="wrap">
+    <div class="k-head">
+      <h2 class="k-h2" id="k-gal-h">Galéria</h2>
+      <p class="lead">Z nášho posledného fotenia lístka.</p>
+    </div>
+    <ul class="k-grid" data-gallery>
+      <li class="k-grid__item k-grid__item--wide"><button type="button" data-lightbox="assets/img/stol-hore-siroky-1600.webp" aria-label="Zväčšiť fotku: stôl plný jedál zhora">{{img:stol-hore-siroky|(min-width:900px) 50vw, 100vw|Okrúhly stôl plný jedál zhora}}</button></li>
+      <li class="k-grid__item k-grid__item--tall"><button type="button" data-lightbox="assets/img/aperitiv-ruka-1080.webp" aria-label="Zväčšiť fotku: aperitív">{{img:aperitiv-ruka|(min-width:900px) 25vw, 50vw|Pohár s aperitívom a sušeným pomarančom}}</button></li>
+      <li class="k-grid__item"><button type="button" data-lightbox="assets/img/hrudka-syr-1080.webp" aria-label="Zväčšiť fotku: vyprážaný syr">{{img:hrudka-syr|(min-width:900px) 25vw, 50vw|Čašníčka s úsmevom rozťahuje vyprážaný syr}}</button></li>
+      <li class="k-grid__item"><button type="button" data-lightbox="assets/img/steak-krajanie-1080.webp" aria-label="Zväčšiť fotku: krájanie steaku">{{img:steak-krajanie|(min-width:900px) 25vw, 50vw|Krájanie steaku pri stole}}</button></li>
+      <li class="k-grid__item k-grid__item--tall"><button type="button" data-lightbox="assets/img/burger-ruky-1080.webp" aria-label="Zväčšiť fotku: burger">{{img:burger-ruky|(min-width:900px) 25vw, 50vw|Smash burger v rukách}}</button></li>
+      <li class="k-grid__item"><button type="button" data-lightbox="assets/img/pizza-1080.webp" aria-label="Zväčšiť fotku: pizza">{{img:pizza|(min-width:900px) 25vw, 50vw|Pizza na zamatovom kresle}}</button></li>
+      <li class="k-grid__item"><button type="button" data-lightbox="assets/img/buchta-red-1080.webp" aria-label="Zväčšiť fotku: buchta na pare">{{img:buchta-red|(min-width:900px) 25vw, 50vw|Domáca buchta na pare Red}}</button></li>
+      <li class="k-grid__item k-grid__item--wide"><button type="button" data-lightbox="assets/img/spolocny-stol-1080.webp" aria-label="Zväčšiť fotku: spoločná večera">{{img:spolocny-stol|(min-width:900px) 50vw, 100vw|Spoločná večera pri okrúhlom stole}}</button></li>
+    </ul>
+    <p class="k-center"><a class="textlink" href="https://www.instagram.com/antoni_restaurant/" rel="noopener">Viac na Instagrame {{icon:arrow|arrow}}</a></p>
+  </div>
+</section>
+
+<!-- RECENZIE -->
+<section class="k-section k-reviews" aria-labelledby="k-rev-h">
+  <div class="wrap">
+    <div class="k-head k-head--row">
+      <h2 class="k-h2" id="k-rev-h">Napísali o nás hostia</h2>
+      <div class="k-carousel-nav">
+        <button class="icon-btn" type="button" data-carousel-prev aria-label="Predchádzajúca recenzia"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H5M11 6l-6 6 6 6"/></svg></button>
+        <button class="icon-btn" type="button" data-carousel-next aria-label="Ďalšia recenzia">{{icon:arrow}}</button>
+      </div>
+    </div>
+    <ul class="k-quotes" data-carousel>
+      <li class="k-quote">
+        <blockquote>Výborné jedlo, ochotný a milý personál, krásne čisté prostredie a je vidieť, že sa stále snažia posúvať dopredu. Takáto reštaurácia v okrese naozaj chýbala.</blockquote>
+        <p class="k-quote__by">Michaela K.</p>
+      </li>
+      <li class="k-quote">
+        <blockquote>Neviem ani slovami vyjadriť, akí sme boli spokojní všetci. Obsluha, prostredie a v neposlednom rade samozrejme ponuka a jedlo.</blockquote>
+        <p class="k-quote__by">Oto N.</p>
+      </li>
+      <li class="k-quote">
+        <blockquote>Veľmi pekné, príjemné miesto. Fajn jedlo a milá obsluha.</blockquote>
+        <p class="k-quote__by">Darina Š.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- REZERVÁCIA + KONTAKT -->
+<section class="k-section k-reserve" id="rezervacia" aria-labelledby="k-res-h">
+  <div class="wrap">
+    <div class="k-head">
+      <h2 class="k-h2" id="k-res-h">Rezervácia stola</h2>
+      <p class="lead">Vyberte deň, čas a počet hostí. Rezerváciu vám potvrdíme telefonicky.</p>
+    </div>
+    <div class="reserve-grid">
+      {{> reserve-form}}
+      <aside class="k-contact">
+        <a class="tel-big" href="tel:+421948871984">+421 948 871 984</a>
+        <p class="small muted">Rezervácie a donáška, denne od 11:00.</p>
+        <iframe class="k-map" title="Mapa — Antoni restaurant, Peserany" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Antoni%20restaurant%20Peserany&amp;t=m&amp;z=13&amp;output=embed"></iframe>
+        <address class="small">Antoni restaurant · Peserany 283, 991 05 Sklabiná</address>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<dialog class="k-lightbox" data-lightbox-dialog aria-label="Fotka">
+  <img alt="" data-lightbox-img src="assets/img/stol-hore-siroky-1600.webp">
+  <button class="icon-btn k-lightbox__close" type="button" data-lightbox-close aria-label="Zavrieť">{{icon:close}}</button>
+</dialog>

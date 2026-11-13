@@ -1,0 +1,39 @@
+<!--meta {"title": "Denné menu · Antoni restaurant", "desc": "Denné menu reštaurácie Antoni na tento týždeň: polievka a štyri hlavné jedlá za 6,90 €. Po – Pi od 11:00, aj s donáškou.", "theme": "noon", "page": "denne-menu"} -->
+<section class="page-hero" aria-labelledby="pg-title">
+  <div class="wrap">
+    <h1 class="page-hero__title" id="pg-title" data-title-in>Denné menu</h1>
+    <div class="meta-line">
+      <span>{{icon:calendar}} {{listo:range}}</span>
+      <span>{{icon:clock}} Po – Pi od 11:00</span>
+      <span>{{icon:plate}} Polievka + hlavné jedlo 6,90 €</span>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" aria-label="Menu na týždeň">
+  <div class="week-layout">
+    <div class="week">{{listo:week}}</div>
+    <aside class="week-aside">
+      <div class="order-box">
+        <a class="tel-xl" href="tel:+421948871984">0948 871 984</a>
+        <p class="small muted">Denné menu si môžete objednať aj na donášku.</p>
+      </div>
+      <p class="source-line">{{icon:clock}} Aktualizované {{listo:published}}</p>
+      <details class="allergens">
+        <summary>Čísla alergénov<span class="plus" aria-hidden="true"></span></summary>
+        <ol>{{allergens}}</ol>
+      </details>
+    </aside>
+  </div>
+</section>
+
+<section class="section wrap noon-cta">
+  <div class="noon-cta__in">
+    <figure class="arch noon-cta__img" data-curtain>{{img:risotto|(min-width:900px) 24vw, 60vw|Rizoto s hráškom a pancettou vedľa fľaše bieleho vína}}</figure>
+    <div class="stack" style="--flow:var(--s-5)">
+      <p class="h2">Večer radšej à la carte?</p>
+      <p class="lead">Popri dennom menu varíme celý lístok — steaky, cestoviny aj sezónne jedlá.</p>
+      <p style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="ponuka.html"><span class="btn__text">À la carte lístok</span>{{icon:arrow|arrow}}</a><a class="btn btn--ghost" href="rezervacia.html"><span class="btn__text">Rezervovať</span></a></p>
+    </div>
+  </div>
+</section>

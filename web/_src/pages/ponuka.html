@@ -1,0 +1,33 @@
+<!--meta {"title": "À la carte lístok · Leto 2026 · Antoni restaurant", "desc": "Aktuálny à la carte lístok reštaurácie Antoni: predjedlá, polievky, hlavné jedlá, burgre, steaky, cestoviny a dezerty s cenami a alergénmi.", "theme": "night", "page": "ponuka"} -->
+<section class="page-hero" aria-labelledby="pg-title">
+  <div class="wrap page-hero__grid">
+    <div class="page-hero__text">
+      <h1 class="page-hero__title" id="pg-title" data-title-in>Lístok<br><span class="gold">Leto 2026</span></h1>
+      <p class="lead page-hero__sub">Predjedlá, polievky, hlavné jedlá, steaky a cestoviny. Lístok meníme so sezónou — jedlá so značkou oblúka si môžete pozrieť na fotke.</p>
+      <div class="meta-line">
+        <span>{{icon:clock}} Otvorené denne od 11:00</span>
+        <span>{{icon:leaf}} Vegetariánske</span>
+        <span>Alergény 1 – 14 podľa EÚ</span>
+      </div>
+    </div>
+    <figure class="page-hero__img arch" data-hero-in>{{img:panenka-vino|(min-width:900px) 36vw, 92vw|Hostka s pohárom červeného vína nad tanierom s bravčovou panenkou|eager}}</figure>
+  </div>
+</section>
+
+<nav class="catnav" data-catnav aria-label="Kategórie lístka">
+  <div class="catnav__in">{{catnav:ala-carte}}<a href="pizza.html">Pizza</a></div>
+</nav>
+
+{{menu:ala-carte}}
+
+<section class="section wrap" aria-labelledby="h-alerg">
+  <details class="allergens">
+    <summary id="h-alerg">Zoznam alergénov<span class="plus" aria-hidden="true"></span></summary>
+    <ol>{{allergens}}</ol>
+  </details>
+  <div class="stack" style="--flow:var(--s-5);margin-top:var(--s-9);max-width:640px">
+    <p class="h2">Stôl na dnes večer?</p>
+    <p class="lead">Rezervujte online alebo zavolajte na <a href="tel:+421948871984">0948 871 984</a>.</p>
+    <p><a class="btn" href="rezervacia.html"><span class="btn__text">Rezervovať stôl</span>{{icon:arrow|arrow}}</a></p>
+  </div>
+</section>

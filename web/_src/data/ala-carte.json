@@ -1,0 +1,60 @@
+{
+  "_comment": "Ukážka dát pre Filament model Season → Category → Dish. Obsah z aktuálneho lístka Leto 2026 (antoni.restaurant).",
+  "season": "Leto 2026",
+  "valid_from": "2026-06-01",
+  "categories": [
+    {"slug": "predjedla", "name": "Predjedlá", "photo": "arancini", "photo_alt": "Arancini s pomodoro dipom v keramickej miske",
+     "items": [
+      {"name": "Hovädzí tatarák", "desc": "nakladaná cibuľka, hrianky", "portion": "100 g", "allergens": "1, 3, 10", "price": 9.20, "photo": "tatarak"},
+      {"name": "Arancini", "desc": "pomodoro dip, cherry paradajky, parmezánová majonéza", "portion": "150 g", "allergens": "3, 7, 8, 9", "price": 6.20, "photo": "arancini"}
+     ]},
+    {"slug": "polievky", "name": "Polievky", "photo": "fazulovica", "photo_alt": "Polievka v hrnčeku na drevenej doske Antoni",
+     "items": [
+      {"name": "Slepačí vývar", "desc": "rezance, mäso, zelenina", "portion": "0,33 l", "allergens": "1, 3, 9, 12", "price": 3.60},
+      {"name": "Antoni guľáš", "desc": "pečivo", "portion": "0,5 l", "allergens": "1, 10", "price": 6.50, "photo": "gulas"},
+      {"name": "Antoni fazuľovica", "desc": "na kyslo s údeným mäsom, pečivo", "portion": "0,5 l", "allergens": "1, 7", "price": 6.50, "photo": "fazulovica"}
+     ]},
+    {"slug": "hlavne-jedla", "name": "Hlavné jedlá", "photo": "kacacie-prsia-vino", "photo_alt": "Sous vide kačacie prsia s pohárom červeného vína",
+     "items": [
+      {"name": "Kuracie prsia plnené slaninovou fašou", "desc": "gorgonzolové gnocchi, figové chutney", "portion": "180 g / 200 g", "allergens": "1, 3, 7", "price": 14.80, "photo": "kuracie-gnocchi"},
+      {"name": "Fajitas na horúcej platni", "desc": "grilované kuracie prsia, cibuľa, paprika, opečená tortila, tzatziky, paradajková salsa", "portion": "180 / 50 / 50 / 50 g", "allergens": "1, 7", "price": 13.90, "photo": "fajitas"},
+      {"name": "BBQ kuracie krídelká", "desc": "jarná cibuľka, baby zemiaky", "portion": "450 g / 200 g", "allergens": "1, 6, 10, 11", "price": 12.50},
+      {"name": "Sous vide kačacie prsia", "desc": "domáce zemiakovo-batátové rezančeky, tiramisu omáčka, brusnice", "portion": "200 g / 250 g", "allergens": "1, 3, 7, 8", "price": 14.80, "photo": "kacacie-prsia"},
+      {"name": "Grilovaná bravčová panenka", "desc": "na zemiakových haruľkách, dubáková omáčka", "portion": "180 g / 200 g", "allergens": "1, 3, 7", "price": 12.40, "photo": "panenka"},
+      {"name": "Marinované bravčové rebrá", "desc": "marináda Jack Daniel’s, nakladaná zelenina, horčica, chren, pečivo", "portion": "450 g / 200 g", "allergens": "1, 9, 10, 11", "price": 13.80},
+      {"name": "Vyprážaný bravčový rezeň", "desc": "", "portion": "180 g", "allergens": "1, 3, 7", "price": 8.50},
+      {"name": "Hovädzia sviečková na smotane", "desc": "brusnice, šľahačka, domáca parená knedľa", "portion": "180 g / 200 g", "allergens": "1, 3, 7, 9", "price": 13.80},
+      {"name": "Jelenie stehno po burgundsky", "desc": "zemiakové pyré", "portion": "180 g / 200 g", "allergens": "7", "price": 12.80, "photo": "jelenie-stehno"},
+      {"name": "Losos na bylinkovom masle", "desc": "karfiolové pyré, veloute", "portion": "200 g / 160 g", "allergens": "1, 4, 7", "price": 13.50, "photo": "losos"},
+      {"name": "Vyprážaná kravská hrudka", "desc": "baby zemiaky na masle, omáčka z pečeného cesnaku", "portion": "180 g / 200 g", "allergens": "1, 3, 7", "price": 11.80, "photo": "kravska-hrudka", "tags": ["vege"]}
+     ]},
+    {"slug": "burgre", "name": "Burgre", "photo": "burger-ruky", "photo_alt": "Smash burger v rukách čašníčky Antoni",
+     "items": [
+      {"name": "Antoni smash burger", "desc": "domáca žemľa, hovädzie mäso, smash omáčka, kyslá uhorka, slaninka, cheddar", "portion": "350 g", "allergens": "1, 3, 7, 11", "price": 13.10, "photo": "smash-burger"},
+      {"name": "Kurací burger Antoni špeciál", "desc": "domáca žemľa, chorizo džem, mozzarella, paradajky, červená cibuľa, šalát, majonéza", "portion": "350 g", "allergens": "1, 3, 7", "price": 12.10, "photo": "kuraci-burger"},
+      {"name": "Vegetariánsky burger", "desc": "s grilovaným halloumi syrom a ananásom", "portion": "350 g", "allergens": "1, 3, 7", "price": 14.50, "tags": ["vege"]}
+     ]},
+    {"slug": "steaky", "name": "Steaky", "photo": "steak-krajanie", "photo_alt": "Krájanie rib-eye steaku pri stole, vedľa lístok Antoni",
+     "items": [
+      {"name": "Steak z hovädzej sviečkovice", "desc": "", "portion": "180 g", "allergens": "", "price": 24.50},
+      {"name": "Rib-eye steak", "desc": "hovädzia vysoká roštenka s vyšším stupňom mramorovania", "portion": "300 g", "allergens": "7", "price": 29.50, "photo": "rib-eye"},
+      {"name": "Grilovaný hovädzí flank steak", "desc": "chimichurri omáčka, pečené baby zemiaky", "portion": "200 g / 250 g", "allergens": "7", "price": 18.20, "photo": "flank-steak"}
+     ]},
+    {"slug": "cestoviny", "name": "Cestoviny a rizoto", "photo": "penne-krevety", "photo_alt": "Penne v bazalkovej omáčke s krevetami",
+     "items": [
+      {"name": "Risotto bianco", "desc": "pancetta, hrášok, špargľa, zeleninové čipsy", "portion": "300 g", "allergens": "7, 8, 9", "price": 11.40, "photo": "risotto"},
+      {"name": "Linguine v krémovej paradajkovej omáčke", "desc": "losos, špenát", "portion": "350 g", "allergens": "1, 4, 7", "price": 14.20, "photo": "linguine-losos"},
+      {"name": "Penne v krémovej bazalkovej omáčke", "desc": "k cestovinám: grilované kuracie prsia 100 g · 3,00 € alebo grilované krevety 100 g · 3,90 € (alergén 4)", "portion": "300 g", "allergens": "1, 7", "price": 9.50, "photo": "penne-krevety", "tags": ["vege"]},
+      {"name": "Udon rezance s kuracím mäsom", "desc": "domáca teriyaki omáčka, chrumkavá zelenina", "portion": "100 g / 200 g", "allergens": "1, 6, 8, 11, 13, 14", "price": 9.80, "photo": "udon"},
+      {"name": "Udon rezance s hovädzím mäsom", "desc": "domáca teriyaki omáčka, chrumkavá zelenina", "portion": "100 g / 200 g", "allergens": "1, 6, 8, 11, 13, 14", "price": 15.50},
+      {"name": "Udon rezance s krevetami", "desc": "domáca teriyaki omáčka, chrumkavá zelenina", "portion": "100 g / 200 g", "allergens": "1, 2, 6, 8, 11, 13, 14", "price": 11.80}
+     ]},
+    {"slug": "dezerty", "name": "Dezerty", "photo": "brulee-kava", "photo_alt": "Crème brûlée s ovocím a cappuccino na dubovom stole",
+     "items": [
+      {"name": "Crème brûlée", "desc": "", "portion": "100 g", "allergens": "3, 7", "price": 5.50, "photo": "creme-brulee"},
+      {"name": "Domáce palacinky", "desc": "s džemom alebo nutelou, šľahačka, čerstvé ovocie, čokoláda", "portion": "150 g", "allergens": "1, 3, 7, 8", "price": 6.20},
+      {"name": "Domáca buchta na pare Black", "desc": "plnená nutelou, ganache", "portion": "150 g", "allergens": "1, 3, 6, 7, 8", "price": 6.90, "photo": "buchta-black"},
+      {"name": "Domáca buchta na pare Red", "desc": "plnená nutelou, granko, prepustené maslo", "portion": "150 g", "allergens": "1, 3, 6, 7, 8", "price": 6.90, "photo": "buchta-red"}
+     ]}
+  ]
+}

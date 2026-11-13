@@ -1,0 +1,18 @@
+<!--meta {"title": "Rezervovať stôl · Antoni restaurant", "desc": "Rezervujte si stôl v reštaurácii Antoni online alebo na 0948 871 984. Vyberte deň, čas a počet hostí, rezerváciu potvrdíme telefonicky.", "theme": "noon", "page": "rezervacia"} -->
+<section class="page-hero" aria-labelledby="pg-title">
+  <div class="wrap">
+    <h1 class="page-hero__title" id="pg-title" data-title-in>Rezervácia stola</h1>
+    <p class="lead page-hero__sub">Vyberte deň, čas a počet hostí. Rezerváciu vám potvrdíme telefonicky.</p>
+  </div>
+</section>
+<section class="section" style="padding-top:0">
+  <div class="wrap reserve-grid">
+    {{> reserve-form}}
+    <aside class="k-contact">
+      <a class="tel-big" href="tel:+421948871984">+421 948 871 984</a>
+      <p class="small muted">Radšej zavoláte? Pre skupiny nad 12 hostí a oslavy použite <a href="eventy.html#dopyt">dopyt na oslavu</a>.</p>
+      <div style="margin-top:var(--s-5)">{{> hours}}</div>
+      <figure class="k-photo" style="margin-top:var(--s-7);aspect-ratio:4/5" data-curtain>{{img:brulee-kava|(min-width:1100px) 30vw, 92vw|Crème brûlée a cappuccino na dubovom stole}}</figure>
+    </aside>
+  </div>
+</section>

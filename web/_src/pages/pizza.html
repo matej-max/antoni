@@ -1,0 +1,28 @@
+<!--meta {"title": "Pizza, šaláty a štangle · donáška · Antoni restaurant", "desc": "Pizza, šaláty, štangle a posúchy z Antoni — na mieste aj s donáškou. Objednávky telefonicky na 0948 871 984.", "theme": "night", "page": "pizza", "bar": "bar-pizza"} -->
+<section class="page-hero" aria-labelledby="pg-title">
+  <div class="wrap page-hero__grid">
+    <div class="page-hero__text">
+      <h1 class="page-hero__title" id="pg-title" data-title-in>Pizza, šaláty a&nbsp;štangle</h1>
+      <p class="lead page-hero__sub">Na mieste aj s donáškou domov. Pri objednávke stačí povedať číslo pizze.</p>
+      <div class="order-box">
+        <a class="tel-xl" href="tel:+421948871984">0948 871 984</a>
+        <p class="small muted">Objednávky a donáška denne od 11:00. Podmienky donášky vám povieme pri objednávke.</p>
+      </div>
+    </div>
+    <figure class="page-hero__img arch" data-hero-in>{{img:pizza-podavanie|(min-width:900px) 36vw, 92vw|Čašníčka Antoni podáva pizzu a ponúka kúsok|eager}}</figure>
+  </div>
+</section>
+
+<nav class="catnav" data-catnav aria-label="Kategórie">
+  <div class="catnav__in">{{catnav:pizza}}<a href="ponuka.html">À la carte</a></div>
+</nav>
+
+{{menu:pizza}}
+
+<section class="section wrap">
+  <figure class="pizza-wide frame" data-curtain>{{img:pizza-jedenie|(min-width:900px) 80vw, 100vw|Hosť s úsmevom zahryzáva do kúska pizze}}</figure>
+  <details class="allergens" style="margin-top:var(--s-8)">
+    <summary>Zoznam alergénov<span class="plus" aria-hidden="true"></span></summary>
+    <ol>{{allergens}}</ol>
+  </details>
+</section>

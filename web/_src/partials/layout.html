@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="sk" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{meta:title}}</title>
+<meta name="description" content="{{meta:desc}}">
+<meta name="theme-color" content="#120806">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Antoni restaurant">
+<meta property="og:title" content="{{meta:title}}">
+<meta property="og:description" content="{{meta:desc}}">
+<meta property="og:image" content="assets/img/stol-hore-siroky-1600.webp">
+<link rel="alternate" hreflang="sk" href="https://www.antoni.restaurant/">
+<link rel="alternate" hreflang="hu" href="https://www.antoni.restaurant/hu/">
+<link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap">
+<link rel="preload" href="assets/fonts/Rosalia-SK.woff2?v=2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/antoni.css?v={{ver}}">
+<script>
+  (function (d) {
+    var r = d.documentElement; r.classList.remove('no-js'); r.classList.add('js');
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      r.classList.add('has-motion');
+      window.__motionFallback = setTimeout(function () { r.classList.remove('has-motion'); }, 3500);
+    }
+  })(document);
+</script>
+{{> jsonld}}
+</head>
+<body class="theme-{{meta:theme}}" data-page="{{meta:page}}">
+{{> header}}
+<main id="main">
+{{content}}
+</main>
+{{> footer}}
+{{barpartial}}
+{{> sheets}}
+{{> scripts}}
+</body>
+</html>

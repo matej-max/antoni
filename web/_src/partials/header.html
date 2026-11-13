@@ -1,0 +1,44 @@
+<a class="skip-link" href="#main">Preskočiť na obsah</a>
+<header class="site-header" data-header>
+  <div class="site-header__in wrap">
+    <button class="menu-btn" type="button" data-drawer-open aria-controls="drawer" aria-expanded="false"><span class="menu-btn__lines" aria-hidden="true"></span><span>Menu</span></button>
+    <nav class="nav-l" aria-label="Ponuka">
+      <a class="nav-link" href="ponuka.html"{{cur:ponuka}}>Lístok</a>
+      <a class="nav-link" href="denne-menu.html"{{cur:denne-menu}}>Denné menu</a>
+      <a class="nav-link" href="pizza.html"{{cur:pizza}}>Pizza a donáška</a>
+      <a class="nav-link" href="eventy.html"{{cur:eventy}}>Oslavy</a>
+    </nav>
+    <a class="site-header__logo" href="index.html" aria-label="Antoni restaurant — úvod">{{logo:mono|mono}}{{logo:word|word}}</a>
+    <div class="nav-r">
+      <nav aria-label="O reštaurácii" class="nav-r__links">
+        <a class="nav-link" href="medzi-chodmi.html"{{cur:medzi-chodmi}}>Medzi chodmi</a>
+        <a class="nav-link" href="o-nas.html"{{cur:o-nas}}>O nás</a>
+        <a class="nav-link" href="kontakt.html"{{cur:kontakt}}>Kontakt</a>
+      </nav>
+      <div class="lang" aria-label="Jazyk"><a href="index.html" aria-current="true" lang="sk">SK</a><a href="#" lang="hu" hreflang="hu">HU</a></div>
+      <a class="btn btn--sm" href="rezervacia.html">Rezervovať</a>
+    </div>
+    <a class="today-pill today-pill--m" href="denne-menu.html" data-today-open><span class="dot" data-today-dot></span><span data-today-label>Denné menu</span></a>
+  </div>
+</header>
+<div class="drawer" id="drawer" data-drawer role="dialog" aria-modal="true" aria-label="Menu" hidden>
+  <div class="drawer__top">
+    <a href="index.html" class="site-header__logo" aria-label="Antoni restaurant — úvod">{{logo:mono|mono}}</a>
+    <button class="drawer__close" type="button" data-drawer-close>Zavrieť {{icon:close}}</button>
+  </div>
+  <nav class="drawer__nav" aria-label="Hlavné menu">
+    <a href="index.html"{{cur:index}}>Večer v Antoni</a>
+    <a href="ponuka.html"{{cur:ponuka}}>Lístok <small>Leto 2026</small></a>
+    <a href="denne-menu.html"{{cur:denne-menu}}>Denné menu <small>Po – Pi</small></a>
+    <a href="pizza.html"{{cur:pizza}}>Pizza a donáška</a>
+    <a href="kacacie-hody.html"{{cur:kacacie-hody}}>Kačacie hody <small>práve teraz</small></a>
+    <a href="eventy.html"{{cur:eventy}}>Oslavy a svadby</a>
+    <a href="medzi-chodmi.html"{{cur:medzi-chodmi}}>Medzi chodmi</a>
+    <a href="o-nas.html"{{cur:o-nas}}>O nás</a>
+    <a href="kontakt.html"{{cur:kontakt}}>Kontakt</a>
+  </nav>
+  <div class="drawer__foot">
+    <div class="row"><span class="bar__status" data-open-status><span class="dot dot--off"></span>Otváracie hodiny</span><div class="lang-m" aria-label="Jazyk"><a href="index.html" aria-current="true" lang="sk">SK</a><a href="#" lang="hu" hreflang="hu">HU</a></div></div>
+    <div class="row"><a class="tel" href="tel:+421948871984">+421 948 871 984</a><a class="btn btn--sm" href="rezervacia.html">Rezervovať</a></div>
+  </div>
+</div>

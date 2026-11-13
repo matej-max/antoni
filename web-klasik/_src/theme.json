@@ -1,0 +1,5 @@
+{
+  "_comment": "Záložná klasická verzia (kategóriový štandard). Podstránky zo základného web/_src/pages sa zostavia vo svetlej téme.",
+  "force_theme": "noon",
+  "bar_map": {"bar-clock": "bar", "bar-pizza": "bar"}
+}

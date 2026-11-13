@@ -1,0 +1,506 @@
+{
+ "stol-hore": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600,
+   2200
+  ],
+  "source": "A7408566.jpg"
+ },
+ "stol-hore-siroky": {
+  "w": 6865,
+  "h": 4577,
+  "widths": [
+   640,
+   1080,
+   1600,
+   2200
+  ],
+  "source": "A7408549.jpg"
+ },
+ "stol-ruky": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600,
+   2200
+  ],
+  "source": "A7408601.jpg"
+ },
+ "stol-ruky-2": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408614.jpg"
+ },
+ "spolocny-stol": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408587.jpg"
+ },
+ "spolocny-stol-siroky": {
+  "w": 7008,
+  "h": 4672,
+  "widths": [
+   640,
+   1080,
+   1600,
+   2200
+  ],
+  "source": "A7408591.jpg"
+ },
+ "prichod": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408666.jpg"
+ },
+ "aperitiv-negroni": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408894.jpg"
+ },
+ "aperitiv-ruka": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408815.jpg"
+ },
+ "espresso-martini": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408898.jpg"
+ },
+ "kokteily": {
+  "w": 4617,
+  "h": 6925,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408921.jpg"
+ },
+ "kokteil-coupe": {
+  "w": 4633,
+  "h": 6950,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408713.jpg"
+ },
+ "arancini": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407848.jpg"
+ },
+ "fazulovica": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408274.jpg"
+ },
+ "kacacie-prsia": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407898.jpg"
+ },
+ "kacacie-prsia-vino": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407888.jpg"
+ },
+ "losos": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408013.jpg"
+ },
+ "panenka": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408369.jpg"
+ },
+ "panenka-vino": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408382.jpg"
+ },
+ "penne-krevety": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408038.jpg"
+ },
+ "kuracie-gnocchi": {
+  "w": 2571,
+  "h": 3856,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408235.jpg"
+ },
+ "jelenie-stehno": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407837.jpg"
+ },
+ "rib-eye": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408480.jpg"
+ },
+ "steak-krajanie": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408540.jpg"
+ },
+ "smash-burger": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407928.jpg"
+ },
+ "kuraci-burger": {
+  "w": 3072,
+  "h": 4608,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407815.jpg"
+ },
+ "burger-ruky": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407941.jpg"
+ },
+ "fajitas": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407976.jpg"
+ },
+ "linguine-losos": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408217.jpg"
+ },
+ "risotto": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7407886.jpg"
+ },
+ "kravska-hrudka": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408137.jpg"
+ },
+ "hrudka-syr": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408161.jpg"
+ },
+ "pizza": {
+  "w": 3606,
+  "h": 5409,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408299.jpg"
+ },
+ "pizza-jedenie": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408319.jpg"
+ },
+ "pizza-podavanie": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408308.jpg"
+ },
+ "creme-brulee": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408417.jpg"
+ },
+ "brulee-kava": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408435.jpg"
+ },
+ "brulee-ruka": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408460.jpg"
+ },
+ "buchta-red": {
+  "w": 4357,
+  "h": 6536,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408114.jpg"
+ },
+ "buchta-black": {
+  "w": 4205,
+  "h": 6307,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408125.jpg"
+ },
+ "vino": {
+  "w": 4672,
+  "h": 7008,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "A7408936.jpg"
+ },
+ "tatarak": {
+  "w": 500,
+  "h": 500,
+  "widths": [
+   500
+  ],
+  "source": "01-01-tatarak.jpg"
+ },
+ "gulas": {
+  "w": 475,
+  "h": 475,
+  "widths": [
+   475
+  ],
+  "source": "02-02-gulas.jpg"
+ },
+ "flank-steak": {
+  "w": 1920,
+  "h": 1280,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "flank-steak.jpg"
+ },
+ "udon": {
+  "w": 500,
+  "h": 500,
+  "widths": [
+   500
+  ],
+  "source": "udon-teryiaki-rezance-min-1.jpg"
+ },
+ "kacacie-hody-misa": {
+  "w": 1200,
+  "h": 1600,
+  "widths": [
+   640,
+   1080
+  ],
+  "source": "image0.jpeg"
+ },
+ "kacacie-hody-stehno": {
+  "w": 1600,
+  "h": 1200,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "image1.jpeg"
+ },
+ "kacacie-hody-prsia": {
+  "w": 1200,
+  "h": 1600,
+  "widths": [
+   640,
+   1080
+  ],
+  "source": "image2.jpeg"
+ },
+ "kacacie-hody-lokse": {
+  "w": 1200,
+  "h": 1600,
+  "widths": [
+   640,
+   1080
+  ],
+  "source": "image3.jpeg"
+ },
+ "kacacie-hody-pastetka": {
+  "w": 1200,
+  "h": 1600,
+  "widths": [
+   640,
+   1080
+  ],
+  "source": "image4.jpeg"
+ },
+ "kacacie-hody-pastetka-2": {
+  "w": 3024,
+  "h": 4032,
+  "widths": [
+   640,
+   1080,
+   1600
+  ],
+  "source": "image5.jpeg"
+ }
+}
