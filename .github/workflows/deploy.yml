@@ -19,8 +19,10 @@ jobs:
           set -o pipefail
           sudo apt-get install -y -qq sshpass >/dev/null 2>&1
           cd deploy
+          # subdomény a./b.antoni.restaurant majú koreň v <doména>/sub/a a /sub/b
           # dávka: vytvor adresáre (chyba „už existuje“ sa ignoruje cez „-“), potom nahraj súbory
           {
+            echo "cd \"$HOST/sub\""
             echo "pwd"
             find a b -type d | sort | sed 's/^/-mkdir /'
             find a b -type f | sort | sed 's/.*/put "&" "&"/'
