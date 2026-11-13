@@ -1340,3 +1340,11 @@ input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(76%) sepi
 
 /* na stránke rezervácie netreba v lište odkaz sám na seba */
 [data-page="rezervacia"] .bar .btn { display: none; }
+
+/* striedajúce sa slovo v úvodnom nadpise (verzia A) */
+.rotator { display: inline-block; position: relative; vertical-align: bottom; color: var(--gold); transition: width .7s var(--ease-out); white-space: nowrap; }
+.rotator__word { display: inline-block; transition: opacity .55s var(--ease-out), transform .7s var(--ease-out), filter .55s var(--ease-out); }
+.rotator__word.is-out { opacity: 0; transform: translateY(-.35em); filter: blur(6px); }
+.rotator__word.is-in { opacity: 0; transform: translateY(.35em); filter: blur(6px); transition: none; }
+/* časová os bez časov: len názvy kapitol */
+.rail a .lbl { opacity: 1; transform: none; }

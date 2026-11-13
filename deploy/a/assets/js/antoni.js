@@ -772,6 +772,31 @@
     window.addEventListener('load', function () { ScrollTrigger.refresh(); });
   }
 
+  /* ------------------------------------------- striedajúce sa slovo */
+  function initRotator() {
+    $$('[data-rotator]').forEach(function (r) {
+      var words = r.dataset.words.split('|');
+      var el = $('.rotator__word', r);
+      if (!root.classList.contains('has-motion') || words.length < 2) return;
+      var i = 0;
+      function fit() { r.style.width = el.getBoundingClientRect().width + 'px'; }
+      fit();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+      setInterval(function () {
+        if (document.hidden) return;
+        el.classList.add('is-out');
+        setTimeout(function () {
+          i = (i + 1) % words.length;
+          el.textContent = words[i];
+          el.classList.remove('is-out');
+          el.classList.add('is-in');
+          fit();
+          requestAnimationFrame(function () { requestAnimationFrame(function () { el.classList.remove('is-in'); }); });
+        }, 520);
+      }, 2600);
+    });
+  }
+
   /* ================================================================ štart */
   function boot() {
     openStatus();
@@ -786,6 +811,7 @@
     initClock();
     initReserve();
     initInquiry();
+    initRotator();
     initMainsScrollProgress();
     $$('[data-today-open]').forEach(function (a) { a.addEventListener('click', openTodaySheet); });
 
